@@ -1,6 +1,19 @@
+from __future__ import absolute_import
+from __future__ import unicode_literals
 from subprocess import call
-from SpeechReg.speech_recognition.mainModule import Speech_Reg
+from speech_recognition.mainModule import Speech_Reg
 import random
+from CrfTagger import CRFTagger
+from yelpAPI import GetAPIResults
+import unicodedata
+import re
+from nltk.tag.api import TaggerI
+from nltk.tag import StanfordPOSTagger
+
+import os
+
+os.environ['CLASSPATH']="/Users/louis/Documents/CSCI_544/BSLVChatbot/stanford-postagger-2015-12-09/stanford-postagger.jar"
+os.environ['STANFORD_MODELS']="/Users/louis/Documents/CSCI_544/BSLVChatbot/stanford-postagger-2015-12-09/models"
 
 class BSLVChatBot:
     def __init__(self):
@@ -10,12 +23,15 @@ class BSLVChatBot:
 class Fix_choice:
 
     def __init__(self):
-
         self.STARTUP_FILTER={}
 
         self.BOOLEAN_PRICE = False
         self.BOOLEAN_LOCATION = False
         self.BOOLEAN_CUSINE = False
+
+        self.fetchedRestaurant=[]
+        self.fetchedAddress = []
+        self.fetchedURL = []
 
         self.PRICE_VALUE = ""
         self.LOCATION_VALUE = ""
@@ -51,35 +67,52 @@ class Fix_choice:
 
 
     def temp_crf(self, sentence):
-        self.cusine_type = ["indian", "chinese","italian","mexican"]
-        self.location_type = ["los angeles", "san jose", "san francisco","downtown"]
-        self.price_type = ["medium", "moderate","cheap","expensive"]
-
 
         split_list = sentence.split(" ")
-        for word in split_list:
-            if word.lower()in self.cusine_type:
-                self.BOOLEAN_CUSINE = True
-                self.cusine_type = word.lower()
-                return self.fix_choice()
-            elif word.lower()in self.location_type:
-                self.BOOLEAN_LOCATION = True
-                self.location_type = word.lower()
-                return self.fix_choice()
-            elif word.lower()in self.price_type:
-                self.BOOLEAN_PRICE = True
-                self.price_type = word.lower()
-                return self.fix_choice()
+        ct = CRFTagger()
+        ct.form_pos_tag_list("/Users/louis/Documents/CSCI_544/BSLVChatbot/pos_data.txt")
+        result = ct.tag(split_list)
 
-        return self.fix_choice("invalid_choice")
+        for word, tag in result:
+            if 'B-CUISINE' in tag:
+                self.BOOLEAN_CUSINE = True
+                self.CUSINE_VALUE = word.lower()
+            if 'B-PRICE' in tag:
+                self.BOOLEAN_PRICE = True
+                self.PRICE_VALUE = word.lower()
+            if 'B-LOCATION' in tag:
+                self.BOOLEAN_LOCATION = True
+                self.LOCATION_VALUE = word.lower()
+            if 'I-LOCATION' in tag:
+                self.BOOLEAN_LOCATION = True
+                self.LOCATION_VALUE += " "+word.lower()
+
+        if self.BOOLEAN_LOCATION or self.BOOLEAN_PRICE or self.BOOLEAN_CUSINE:
+            return self.fix_choice()
+        else:
+            return self.fix_choice("invalid_choice")
 
 
     def fix_choice(self, invalid_choice=False):
         final_return_value =""
-        if invalid_choice == True:
+        if invalid_choice == "invalid_choice":
             final_return_value = random.choice(self.STARTUP_FILTER['STANDARD_RESPONSE'])
         if self.BOOLEAN_PRICE and self.BOOLEAN_LOCATION and self.BOOLEAN_CUSINE:
-            return "got all values"
+            print("Just to confirm once You preferred "+self.CUSINE_VALUE+" for cuisine , "+self.PRICE_VALUE+" for price and "+self.LOCATION_VALUE+" for location.")
+            #print("cuisine ",self.CUSINE_VALUE)
+            #print("price ",self.PRICE_VALUE)
+            #print("location ",self.LOCATION_VALUE)
+            yelpObj = GetAPIResults()
+            self.fetchedRestaurant, self.fetchedURL, self.fetchedAddress = yelpObj.get_results(self.LOCATION_VALUE, self.PRICE_VALUE, self.CUSINE_VALUE)
+            print("################# Here you Go ################")
+            for i in range (0,3):
+                print("---------------------------------")
+                print("Name: ",self.fetchedRestaurant[i])
+                print("URL: ",self.fetchedURL[i])
+                print("Address: ",self.fetchedAddress[i])
+                print("---------------------------------")
+            print()
+            return "Done"
         elif self.BOOLEAN_CUSINE and self.BOOLEAN_LOCATION:
             final_return_value += random.choice(self.STARTUP_FILTER['LOCATION_CUISINE_GIVEN'])
         elif self.BOOLEAN_PRICE and self.BOOLEAN_LOCATION:
@@ -101,8 +134,9 @@ if __name__ == '__main__':
     choice = Fix_choice()
     while True:
         return_value = bot.sr.speech_recognition()
-        print("my value ",return_value)
-        print(choice.temp_crf(return_value))
+        if return_value is not None:
+            print("You said ",return_value)
+            print(choice.temp_crf(return_value))
 
         if choice.BOOLEAN_CUSINE and choice.BOOLEAN_LOCATION and choice.BOOLEAN_PRICE:
             break

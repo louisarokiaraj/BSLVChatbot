@@ -17,12 +17,12 @@ from nltk.tag.api import TaggerI
 from nltk.tag import StanfordPOSTagger
 import AnnotationFile as an
 import os
-os.environ['CLASSPATH']="/home/vrushali/Desktop/NLPProject/stanford-postagger-2015-12-09/stanford-postagger.jar"
-os.environ['STANFORD_MODELS']="/home/vrushali/Desktop/NLPProject/stanford-postagger-2015-12-09/models"
-try:
-    import pycrfsuite
-except ImportError:
-    pass
+
+os.environ['CLASSPATH']="/Users/louis/Documents/CSCI_544/BSLVChatbot/stanford-postagger-2015-12-09/stanford-postagger.jar"
+os.environ['STANFORD_MODELS']="/Users/louis/Documents/CSCI_544/BSLVChatbot/stanford-postagger-2015-12-09/models"
+
+import pycrfsuite
+
 
 
 
@@ -48,12 +48,12 @@ class CRFTagger(TaggerI):
         This function should take 2 parameters: tokens and index which extract features at index position from tokens list.
         See the build in _get_features function for more detail.
          """
-        print("I am called")
+        #print("I am called")
         self._model_file = ''
         self._tagger = pycrfsuite.Tagger()
         if feature_func is None:
             self._feature_func = self._get_features
-            print("features set")
+            #print("features set")
         else:
             self._feature_func = feature_func
         self._verbose = verbose
@@ -69,9 +69,9 @@ class CRFTagger(TaggerI):
         """
 
         self.count += 1
-        print("here count ", self.count)
+        #print("here count ", self.count)
         tags = self.st.tag(String)  # a list of [(w0, tag0), (w1, tag1), (w2, tag2)]
-        print("returning ")
+        #print("returning ")
         return tags
 
     def set_model_file(self, model_file):
@@ -86,9 +86,9 @@ class CRFTagger(TaggerI):
 
         tokenString=' '.join(tokens)
         if tokenString in self.pos_map:
-            print(tokenString)
-            print(self.pos_map[tokenString])
-            print("-------------------------------")
+            #print(tokenString)
+            #print(self.pos_map[tokenString])
+            #print("-------------------------------")
             tags=self.pos_map[tokenString]
 
         else:
@@ -96,8 +96,8 @@ class CRFTagger(TaggerI):
             self.pos_map[tokenString]=tags
 
         token = tokens[idx]
-        print ("hereeee")
-        print("and tokens are ", tokens)
+        #print ("hereeee")
+        #print("and tokens are ", tokens)
         feature_list = []
         if not token: return feature_list
         # Punctuation
@@ -148,7 +148,7 @@ class CRFTagger(TaggerI):
          :return : list of tagged sentences.
          :rtype : list (list (tuple(str,str)))
          """
-        self._model_file="model.crf.tagger"
+        self._model_file="/Users/louis/Documents/CSCI_544/BSLVChatbot/model.crf.tagger"
 
         if os.path.isfile(self._model_file):
             self.set_model_file(self._model_file)
@@ -194,7 +194,7 @@ class CRFTagger(TaggerI):
                             tag = words[1]
                             tup = word, tag
                             tuple_list.append(tup)
-        print("len of hashmap ",len(self.pos_map))
+        #print("len of hashmap ",len(self.pos_map))
 
     def train(self, train_data,model_file):
         ''' Train the CRF tagger using CRFSuite :params train_data : is the list of annotated sentences.
@@ -223,7 +223,7 @@ class CRFTagger(TaggerI):
           :type tokens : list(str) :return : list of tagged tokens. :rtype : list (tuple(str,str))
           '''
 
-        print (tokens)
+        #print (tokens)
         return self.tag_sents([tokens])[0]
 
 def main():
@@ -238,9 +238,6 @@ def main():
     result=ct.tag_sents([['I','prefer','spicy','Chinese'],['Please','recommend','some','indian','restaurant','near','las','vegas'],
                         ['I','am','interested','in','mexican','food'],['Mexican','food'],['cheap','food','near','santa','monica'],['Give','me','a','list','of','asian','cuisines','near','sacramento'],
                          ['costly','in','price'],['Los','Angeles'],['Pasedina'],['Moderate','is','fine']])
-    print (result)
+    #print (result)
 
 
-
-
-main()
