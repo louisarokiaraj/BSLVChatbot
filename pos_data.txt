@@ -1,0 +1,2532 @@
+Hi	NN
+I	PRP
+would	MD
+like	VB
+to	TO
+eat	VB
+something	NN
+in	IN
+Los	NNP
+Angeles	NNP
+
+What	WP
+would	MD
+you	PRP
+suggest	VB
+me	PRP
+to	TO
+eat	VB
+in	IN
+Hollywood	NNP
+Blvd	NNP
+
+Can	MD
+you	PRP
+suggest	VBP
+me	PRP
+good	JJ
+cheap	JJ
+Indian	JJ
+Restaurants	NNS
+
+I	PRP
+prefer	VBP
+Spicy	NNP
+Chinese	NNP
+
+What	WDT
+locations	NNS
+are	VBP
+you	PRP
+comfortable	JJ
+with	IN
+
+Suggest	JJ
+places	NNS
+near	IN
+Los	NNP
+Angeles	NNP
+to	TO
+have	VB
+spicy	JJ
+Mexican	JJ
+Food	NN
+
+I	PRP
+am	VBP
+fine	JJ
+with	IN
+any	DT
+cuisine	NN
+
+I	PRP
+am	VBP
+particular	JJ
+about	IN
+cheap	JJ
+restaurants	NNS
+near	IN
+Hollywood	NNP
+Blvd	NNP
+Los	NNP
+Angeles	NNP
+
+Please	VB
+give	VB
+me	PRP
+expensive	JJ
+Chinese	JJ
+restaurants	NNS
+near	IN
+Los	NNP
+Angeles	NNP
+Downtown	NN
+
+Get	VB
+me	PRP
+Chinese	NNP
+that	WDT
+are	VBP
+of	IN
+moderate	JJ
+cost	NN
+
+Tell	VB
+me	PRP
+cheap	JJ
+restaurants	NNS
+that	WDT
+are	VBP
+of	IN
+Indian	JJ
+type	NN
+
+What	WP
+would	MD
+you	PRP
+suggest	VB
+to	TO
+be	VB
+best	JJS
+
+Either	NNP
+Indian	NNP
+or	CC
+Mexican	NNP
+
+I	PRP
+want	VBP
+to	TO
+try	VB
+Chinese	JJ
+buffet	NN
+near	IN
+Los	NNP
+Angeles	NNP
+
+Indian	JJ
+Cheap	JJ
+and	CC
+Spicy	NNP
+near	IN
+me	PRP
+
+What	WDT
+cost	NN
+range	NN
+restaurants	NNS
+will	MD
+you	PRP
+recommend	VB
+
+Hi	IN
+I	PRP
+am	VBP
+interested	JJ
+towards	IN
+Chinese	NNP
+and	CC
+Mexican	NNP
+
+I	PRP
+want	VBP
+to	TO
+try	VB
+some	DT
+cheap	JJ
+Italian	NNP
+Food	NNP
+near	IN
+USC	NNP
+
+I	PRP
+want	VBP
+to	TO
+have	VB
+some	DT
+good	JJ
+Italian	JJ
+Pasta	NN
+
+Low	JJ
+cost	NN
+Mexican	JJ
+restaurant	NN
+
+I	PRP
+do	VBP
+not	RB
+like	VB
+this	DT
+suggestion	NN
+Can	MD
+you	PRP
+suggest	VB
+me	PRP
+something	NN
+else	RB
+
+Hello	UH
+How	WRB
+are	VBP
+you	PRP
+
+Ping	VB
+some	DT
+good	JJ
+restaurants	NNS
+to	TO
+hang	VB
+out	RP
+
+What	WP
+is	VBZ
+your	PRP$
+name	NN
+
+My	PRP$
+name	NN
+is	VBZ
+XXX	NNP
+
+I	PRP
+would	MD
+like	VB
+to	TO
+dine	VB
+in	IN
+a	DT
+moderate	JJ
+italian	JJ
+restaurant	NN
+near	IN
+USC	NN
+
+My	PRP$
+name	NN
+is	VBZ
+Bharath	NNP
+
+I	PRP
+am	VBP
+looking	VBG
+for	IN
+a	DT
+Mexican	JJ
+restaurant	NN
+in	IN
+San	NNP
+Jose	NNP
+
+Let	VB
+me	PRP
+know	VB
+few	JJ
+restaurants	NNS
+which	WDT
+has	VBZ
+the	DT
+dishes	NNS
+in	IN
+medium	NN
+price	NN
+range	NN
+
+That	DT
+sounds	VBZ
+good	JJ
+
+This	DT
+is	VBZ
+Bharath	NNP
+
+My	PRP$
+name	NN
+is	VBZ
+Bharath	NNP
+
+Bharath	NNP
+is	VBZ
+my	PRP$
+name	NN
+
+Tell	VB
+me	PRP
+about	IN
+yourself	PRP
+
+Can	MD
+you	PRP
+help	VB
+me	PRP
+with	IN
+suggesting	VBG
+an	DT
+Italian	JJ
+cuisine	NN
+
+Can	MD
+you	PRP
+help	VB
+me	PRP
+with	IN
+suggesting	VBG
+an	DT
+Italian	JJ
+cuisine	NN
+in	IN
+Los	NNP
+Angeles	NNP
+
+Can	MD
+you	PRP
+help	VB
+me	PRP
+with	IN
+choosing	VBG
+a	DT
+cheap	JJ
+Italian	JJ
+cuisine	NN
+in	IN
+Hollywood	NNP
+
+Suggest	JJ
+few	JJ
+hotels	NNS
+in	IN
+Santa	NNP
+monica	NN
+
+Suggest	JJ
+few	JJ
+hotels	NNS
+in	IN
+Santa	NNP
+clara	NN
+which	WDT
+offers	VBZ
+Indian	NNP
+foods	NNS
+
+Suggest	VB
+me	PRP
+few	JJ
+expensive	JJ
+cuisines	NNS
+in	IN
+Palo	NNP
+alto	NN
+
+Provide	VB
+me	PRP
+a	DT
+list	NN
+of	IN
+Chinese	JJ
+restaurants	NNS
+
+Provide	VB
+me	PRP
+a	DT
+list	NN
+of	IN
+Chinese	JJ
+restaurants	NNS
+near	IN
+Malibu	NNP
+
+Can	MD
+you	PRP
+tell	VB
+me	PRP
+is	VBZ
+there	RB
+any	DT
+Indian	JJ
+cuisine	NN
+near	IN
+San	NNP
+Francisco	NNP
+
+Is	VBZ
+there	RB
+any	DT
+Indian	JJ
+cuisine	NN
+near	IN
+San	NNP
+Francisco	NNP
+
+Is	VBZ
+there	RB
+any	DT
+cheap	JJ
+Indian	JJ
+cuisine	NN
+near	IN
+San	NNP
+Francisco	NNP
+
+I	PRP
+would	MD
+like	VB
+to	TO
+have	VB
+Italian	JJ
+food	NN
+in	IN
+average	JJ
+price	NN
+range	NN
+
+I	PRP
+would	MD
+like	VB
+to	TO
+eat	VB
+Japanese	JJ
+food	NN
+now	RB
+
+I	PRP
+prefer	VBP
+expensive	JJ
+food	NN
+for	IN
+today’s	NN
+dinner	NN
+
+I	PRP
+prefer	VBP
+spicy	JJ
+Thai	NNP
+food	NN
+for	IN
+lunch	NN
+
+Moderate	JJ
+cost	NN
+Mexican	JJ
+restaurants	NNS
+
+Expensive	JJ
+Mexican	JJ
+restaurants	NNS
+in	IN
+Mountain	NNP
+view	NN
+
+Recommend	VB
+a	DT
+cheap	JJ
+Caribbean	NNP
+cuisine	NN
+
+Recommend	VB
+a	DT
+Caribbean	NNP
+cuisine	NN
+in	IN
+Los	NNP
+angeles	NNS
+
+I	PRP
+am	VBP
+looking	VBG
+for	IN
+thai	JJ
+food	NN
+in	IN
+Sunnyvale	NNP
+
+It	PRP
+would	MD
+be	VB
+great	JJ
+if	IN
+you	PRP
+suggest	VBP
+few	JJ
+chinese	JJ
+food	NN
+
+Cheap	JJ
+indian	JJ
+cuisine	NN
+
+Looking	VBG
+for	IN
+restaurants	NNS
+in	IN
+Las	NNP
+vegas	NNS
+
+Find	VB
+some	DT
+indian	JJ
+cuisines	NNS
+in	IN
+Las	NNP
+Vegas	NNP
+
+Suggest	VB
+any	DT
+type	NN
+of	IN
+restaurant	NN
+which	WDT
+is	VBZ
+cheap	JJ
+in	IN
+San	NNP
+Jose	NN
+
+Hi	IN
+I	PRP
+feel	VBP
+like	IN
+hungry	JJ
+like	IN
+to	TO
+have	VB
+some	DT
+food	NN
+
+Can	MD
+you	PRP
+suggest	VB
+me	PRP
+some	DT
+restaurants	NNS
+for	IN
+kids	NNS
+
+Can	MD
+you	PRP
+suggest	VB
+me	PRP
+some	DT
+restaurants	NNS
+that	WDT
+is	VBZ
+cheap	JJ
+and	CC
+provide	VB
+corporate	JJ
+discounts	NNS
+
+Suggest	VB
+me	PRP
+some	DT
+restaurants	NNS
+that	WDT
+serves	VBZ
+good	JJ
+seafood	NN
+
+Suggest	VB
+me	PRP
+some	DT
+restaurant	NN
+near	IN
+seashore	NN
+
+Suggest	VB
+me	PRP
+a	DT
+good	JJ
+vegan	JJ
+restaurant	NN
+near	IN
+downtown	NN
+LA	NNP
+
+Like	IN
+to	TO
+go	VB
+to	TO
+Indian	JJ
+Buffet	NN
+suggest	VBP
+me	PRP
+some	DT
+cheap	JJ
+and	CC
+tasty	JJ
+hotels	NNS
+
+Suggest	VB
+me	PRP
+some	DT
+restaurants	NNS
+that	WDT
+has	VBZ
+serves	VBZ
+good	JJ
+wine	NN
+
+Suggest	VB
+me	PRP
+some	DT
+drive	NN
+through	IN
+restaurants	NNS
+
+List	VB
+me	PRP
+top	JJ
+3	CD
+sushi	NN
+restaurants	NNS
+near	IN
+santa	FW
+monica	FW
+
+Suggest	VB
+me	PRP
+good	JJ
+restaurants	NNS
+that	WDT
+serves	VBZ
+buffet	NN
+for	IN
+dinner	NN
+near	IN
+LA	NNP
+
+Looking	VBG
+for	IN
+cheap	JJ
+italian	JJ
+cuisine	NN
+
+Looking	VBG
+for	IN
+multi	JJ
+cuisine	NN
+restaurants	NNS
+
+Suggest	VB
+me	PRP
+some	DT
+restaurants	NNS
+that	WDT
+serves	VBZ
+greens	NNS
+
+Suggest	VB
+me	PRP
+some	DT
+self	NN
+cooking	JJ
+restaurants	NNS
+near	IN
+pasadena	NN
+
+Suggest	VB
+me	PRP
+some	DT
+to-go	JJ
+Indian	JJ
+restaurants	NNS
+in	IN
+LA	NNP
+
+Suggest	VB
+me	PRP
+some	DT
+restaurants	NNS
+that	WDT
+serves	VBZ
+dosa	NN
+
+Can	MD
+u	NN
+tell	VB
+me	PRP
+some	DT
+good	JJ
+restaurants	NNS
+that	WDT
+is	VBZ
+less	RBR
+crowded	JJ
+and	CC
+serves	VBZ
+cheap	JJ
+food	NN
+
+I	PRP
+like	VBP
+Mexican	JJ
+food	NN
+
+I	PRP
+don’t	VBP
+want	VB
+chinese	NN
+
+Suggest	VB
+me	PRP
+only	RB
+thai	VBP
+food	NN
+
+Tell	VB
+me	PRP
+some	DT
+hotels	NNS
+that	WDT
+serves	VBZ
+healthy	JJ
+food	NN
+
+Suggest	VB
+me	PRP
+some	DT
+hotels	NNS
+that	WDT
+serves	VBZ
+organic	JJ
+food	NN
+in	IN
+LA	NNP
+
+Suggest	VB
+me	PRP
+some	DT
+good	JJ
+hotels	NNS
+that	WDT
+serves	VBZ
+fresh	JJ
+salads	NNS
+
+Suggest	VB
+me	PRP
+some	DT
+hotels	NNS
+of	IN
+your	PRP$
+choice	NN
+near	IN
+NYC	NNP
+
+Hey	UH
+can	MD
+you	PRP
+help	VB
+me	PRP
+in	IN
+finding	VBG
+a	DT
+good	JJ
+Indian	JJ
+cuisine	NN
+near	IN
+my	PRP$
+home	NN
+
+Is	VBZ
+there	RB
+any	DT
+good	JJ
+mexican	JJ
+restaurant	NN
+near	IN
+downtown	NN
+los	NN
+angeles	NNS
+
+I	PRP
+want	VBP
+something	NN
+spicy	JJ
+and	CC
+cheap	JJ
+
+Can	MD
+you	PRP
+suggest	VBP
+a	DT
+good	JJ
+restaurant	NN
+
+Where	WRB
+can	MD
+I	PRP
+get	VB
+good	JJ
+pasta	NN
+
+I	PRP
+would	MD
+prefer	VB
+Italian	JJ
+cuisine	NN
+near	IN
+my	PRP$
+home	NN
+
+Can	MD
+you	PRP
+recommend	VB
+me	PRP
+Italian	JJ
+food	NN
+restaurants	NNS
+preferably	RB
+moderate	JJ
+in	IN
+cost	NN
+
+Suggest	VB
+me	PRP
+good	JJ
+mexican	JJ
+food	NN
+place	NN
+
+Where	WRB
+can	MD
+I	PRP
+find	VB
+Chinese	JJ
+food	NN
+
+Near	IN
+pasadena	NN
+what	WP
+are	VBP
+the	DT
+Indian	JJ
+restaurants	NNS
+
+Indian	JJ
+restaurants	NNS
+please	VBP
+
+I	PRP
+would	MD
+like	VB
+to	TO
+have	VB
+some	DT
+spicy	JJ
+food	NN
+
+Help	VB
+me	PRP
+in	IN
+finding	VBG
+pizza	NN
+place	NN
+
+Quick	RB
+question	NN
+chinese	JJ
+food	NN
+place	NN
+near	IN
+artesia	NN
+
+Recommend	VB
+good	JJ
+indian	JJ
+restaurant	NN
+in	IN
+santa	FW
+monica	FW
+
+Cheap	JJ
+thai	JJ
+food	NN
+
+Very	RB
+hungry	JJ
+get	VB
+me	PRP
+some	DT
+pizza	NN
+please	VB
+
+How	WRB
+about	RB
+something	NN
+spicy	JJ
+cheap	JJ
+indian	JJ
+food	NN
+near	IN
+ellendale	NN
+place	NN
+
+Seafood	NN
+near	IN
+malibu	NN
+
+Burger	NNP
+place	NN
+near	IN
+me	PRP
+
+Give	VB
+me	PRP
+some	DT
+restaurants	NNS
+near	IN
+Los	NNP
+Angeles	NNP
+
+Give	VB
+me	PRP
+cheap	JJ
+restaurants	NNS
+at	IN
+San	NNP
+Francisco	NNP
+
+Indian	JJ
+cuisine	NN
+at	IN
+los	FW
+angeles	FW
+
+I	PRP
+want	VBP
+Mexican	JJ
+buffet	NN
+which	WDT
+is	VBZ
+cheap	JJ
+
+I	PRP
+want	VBP
+to	TO
+dine	VB
+in	IN
+a	DT
+cheap	JJ
+Indian	JJ
+buffet	NN
+near	IN
+San	NNP
+Jose	NNP
+
+Give	VB
+me	PRP
+some	DT
+cheap	JJ
+Indian	JJ
+masala	NN
+dosa	NN
+near	IN
+downtown	NN
+Los	NNP
+Angeles	NNP
+
+Tell	VB
+me	PRP
+expensive	JJ
+restaurants	NNS
+to	TO
+dine	VB
+tonight	NN
+
+Can	MD
+you	PRP
+tell	VB
+me	PRP
+some	DT
+good	JJ
+French	JJ
+restaurant	NN
+to	TO
+hangout	NN
+
+Any	DT
+good	JJ
+Mexican	NNP
+places	NNS
+to	TO
+eat	VB
+at	IN
+New	NNP
+York	NNP
+
+Any	DT
+good	JJ
+French	JJ
+restaurant	NN
+to	TO
+dine	VB
+near	IN
+San	NNP
+Diago	NNP
+
+Any	DT
+good	JJ
+Italian	JJ
+restaurant	NN
+to	TO
+eat	VB
+near	IN
+Nevada	NNP
+
+Any	DT
+good	JJ
+Italian	JJ
+restaurant	NN
+to	TO
+eat	VB
+near	IN
+Los	NNP
+Angeles	NNP
+
+Any	DT
+good	JJ
+Indian	JJ
+restaurant	NN
+to	TO
+eat	VB
+near	IN
+New	JJ
+york	NN
+
+Any	DT
+good	JJ
+Indian	JJ
+buffet	NN
+near	IN
+New	JJ
+jersey	NN
+
+Give	VB
+me	PRP
+some	DT
+good	JJ
+Indian	JJ
+buffet	NN
+place	NN
+to	TO
+eat	VB
+at	IN
+Seattle	NNP
+
+Give	VB
+me	PRP
+some	DT
+cheap	JJ
+restaurants	NNS
+in	IN
+Seattle	NNP
+downtown	NN
+
+Suggest	VB
+me	PRP
+good	JJ
+places	NNS
+to	TO
+eat	VB
+in	FW
+los	FW
+angeles	NNS
+
+Tell	VB
+me	PRP
+top	JJ
+3	CD
+best	RBS
+Indian	JJ
+buffet	NN
+restaurants	NNS
+to	TO
+eat	VB
+near	IN
+San	NNP
+Francisco	NNP
+
+Best	NN
+Indian	JJ
+place	NN
+to	TO
+eat	VB
+
+Best	JJS
+Thai	NNP
+place	NN
+to	TO
+dine	VB
+tonight	NN
+at	IN
+Seattle	NNP
+
+Best	NN
+Mexican	JJ
+place	NN
+to	TO
+eat	VB
+tonight	NN
+near	IN
+San	FW
+jose	FW
+
+Tell	VB
+me	PRP
+some	DT
+expensive	JJ
+place	NN
+to	TO
+eat	VB
+near	IN
+Hollywood	NNP
+blvd	VBD
+
+Tell	VB
+me	PRP
+some	DT
+cheap	JJ
+place	NN
+to	TO
+eat	VB
+near	IN
+USC	NNP
+
+Tell	VB
+me	PRP
+some	DT
+expensive	JJ
+restaurants	NNS
+near	IN
+USC	NNP
+
+Tell	VB
+me	PRP
+some	DT
+moderate	JJ
+restaurants	NNS
+near	IN
+USC	NNP
+
+Give	VB
+me	PRP
+some	DT
+cheap	JJ
+hotel	NN
+to	TO
+eat	VB
+in	IN
+Los	NNP
+Angeles	NNP
+
+Expensive	NNP
+Italian	NNP
+and	CC
+in	IN
+Santa	NNP
+clara	NNS
+
+Can	MD
+you	PRP
+please	VB
+give	VB
+me	PRP
+some	DT
+moderate	JJ
+priced	VBN
+French	JJ
+cuisine	NN
+near	IN
+Santa	NNP
+clara	NNS
+
+Tell	VB
+me	PRP
+places	NNS
+to	TO
+eat	VB
+
+Give	VB
+me	PRP
+cheap	JJ
+places	NNS
+to	TO
+dine	VB
+
+Suggest	VB
+me	PRP
+expensive	JJ
+restaurants	NNS
+to	TO
+eat	VB
+good	JJ
+Mexican	JJ
+buffet	NN
+
+List	VB
+some	DT
+moderate	JJ
+priced	VBN
+Chinese	JJ
+cuisine	NN
+to	TO
+eat	VB
+tonight	NN
+
+Can	MD
+you	PRP
+suggest	VBP
+some	DT
+medium	NN
+prices	NNS
+French	JJ
+cuisine	NN
+in	IN
+New	JJ
+york	NN
+city	NN
+
+Chabot	NNP
+can	MD
+you	PRP
+tell	VB
+me	PRP
+some	DT
+good	JJ
+Italian	JJ
+cuisine	NN
+near	IN
+Santa	NNP
+Clara	NNP
+of	IN
+California	NNP
+
+Hey	UH
+tell	VB
+me	PRP
+some	DT
+moderate	JJ
+chinese	JJ
+restaurants	NNS
+at	IN
+los	FW
+angeles	FW
+
+Suggest	VB
+me	PRP
+best	RBS
+indian	JJ
+cuisine	NN
+which	WDT
+is	VBZ
+expensive	JJ
+
+Restaurants	NNS
+near	IN
+santa	FW
+clara	FW
+
+San	JJ
+jose	NN
+
+Indian	JJ
+cuisine	NN
+near	IN
+san	JJ
+Francisco	NNP
+
+Indian	JJ
+buffet	NN
+
+I	PRP
+want	VBP
+it	PRP
+to	TO
+be	VB
+cheap	JJ
+
+Give	VB
+me	PRP
+some	DT
+expensive	JJ
+restaurants	NNS
+in	IN
+long	JJ
+beach	NN
+
+Tell	VB
+me	PRP
+indian	JJ
+buffet	NN
+restaurants	NNS
+near	IN
+Irvine	NNP
+
+Indian	NNP
+
+Chinese	NN
+
+Dude	NNP
+tell	VB
+me	PRP
+some	DT
+good	JJ
+and	CC
+cheap	JJ
+restaurants	NNS
+near	IN
+long	JJ
+Beach	NN
+
+Give	VB
+me	PRP
+restaurants	NNS
+in	IN
+and	CC
+around	IN
+los	FW
+angeles	FW
+
+Restaurants	NNS
+in	IN
+and	CC
+around	IN
+san	FW
+jose	FW
+
+Tell	VB
+me	PRP
+moderate	JJ
+priced	VBN
+restaurants	NNS
+in	IN
+and	CC
+around	IN
+Beverly	NNP
+Hills	NNP
+
+Good	JJ
+places	NNS
+to	TO
+eat	VB
+in	IN
+downtown	NN
+of	IN
+san	FW
+jose	FW
+
+Places	NNPS
+to	TO
+eat	VB
+in	IN
+seattle	NN
+
+Indian	JJ
+places	NNS
+to	TO
+eat	VB
+in	IN
+seattle	NN
+
+Recommend	VB
+me	PRP
+some	DT
+good	JJ
+restaurants	NNS
+in	IN
+long	JJ
+beach	NN
+
+Please	VB
+recommend	VB
+few	JJ
+cheap	JJ
+Chinese	JJ
+buffet	NN
+in	IN
+los	NN
+angeles	NNS
+
+Please	VB
+suggest	VB
+me	PRP
+some	DT
+nice	JJ
+and	CC
+expensive	JJ
+restaurants	NNS
+in	IN
+and	CC
+around	IN
+USC	NNP
+
+Where	WRB
+can	MD
+I	PRP
+get	VB
+some	DT
+good	JJ
+Mexican	JJ
+food	NN
+
+Places	NNPS
+to	TO
+eat	VB
+Indian	JJ
+buffet	NN
+near	IN
+Irvine	NNP
+
+Can	MD
+you	PRP
+please	VB
+give	VB
+me	PRP
+some	DT
+good	JJ
+French	JJ
+restaurants	NNS
+to	TO
+eat	VB
+near	IN
+long	JJ
+beach	NN
+and	CC
+is	VBZ
+cheap	JJ
+
+Recommend	VB
+me	PRP
+some	DT
+cheap	JJ
+and	CC
+good	JJ
+restaurants	NNS
+in	IN
+mountain	NN
+view	NN
+
+List	NN
+few	JJ
+expensive	JJ
+indian	JJ
+cuisine	NN
+near	IN
+Palo	FW
+Alto	FW
+
+Give	VB
+me	PRP
+cheap	JJ
+restaurants	NNS
+of	IN
+Indian	JJ
+cuisine	NN
+in	IN
+San	JJ
+Francisco	NNP
+
+Can	MD
+you	PRP
+please	VB
+recommend	VB
+some	DT
+moderate	JJ
+chinese	JJ
+restaurant	NN
+in	IN
+Santa	FW
+clara	FW
+
+Kindly	RB
+suggest	VBP
+me	PRP
+some	DT
+cheap	JJ
+and	CC
+best	RB
+indian	JJ
+and	CC
+Mexican	JJ
+food	NN
+places	NNS
+near	IN
+las	FW
+vegas	FW
+
+Restaurants	NNS
+in	IN
+Las	FW
+Vegas	FW
+
+Give	VB
+me	PRP
+some	DT
+Mexican	JJ
+food	NN
+place	NN
+In	IN
+Los	NN
+Angeles	NNS
+
+Cheap	JJ
+restaurants	NNS
+to	TO
+eat	VB
+in	IN
+Hollywood	NNP
+blvd	NN
+
+Is	VBZ
+there	RB
+a	DT
+good	JJ
+chinese	NN
+place	NN
+dine	VBP
+tonight	NN
+near	IN
+santa	FW
+clara	FW
+
+Tell	VB
+me	PRP
+some	DT
+top	JJ
+notch	NN
+restaurants	NNS
+in	IN
+Las	FW
+vegas	FW
+
+Give	VB
+me	PRP
+good	RB
+rated	VBD
+moderate	JJ
+priced	VBN
+indian	JJ
+restaurants	NNS
+in	FW
+Los	FW
+angeles	NNS
+
+Chinese	JJ
+buffet	NN
+places	NNS
+in	IN
+Santa	FW
+Clara	FW
+
+Tell	VB
+me	PRP
+some	DT
+good	JJ
+roof-top	JJ
+places	NNS
+to	TO
+eat	VB
+in	FW
+san	FW
+diago	NN
+
+Recommend	VB
+me	PRP
+some	DT
+expensive	JJ
+Mexican	JJ
+place	NN
+to	TO
+eat	VB
+near	IN
+USC	NNP
+
+Please	VB
+recommend	VB
+me	PRP
+some	DT
+cheap	JJ
+and	CC
+best	JJS
+places	NNS
+to	TO
+dine	VB
+in	IN
+and	CC
+around	IN
+las	FW
+vegas	FW
+
+Please	VB
+list	VB
+me	PRP
+some	DT
+good	JJ
+places	NNS
+to	TO
+eat	VB
+tonight	NN
+
+Please	VB
+list	VB
+me	PRP
+few	JJ
+moderate	JJ
+priced	VBN
+Italian	JJ
+restaurant	NN
+near	IN
+long	JJ
+beach	NN
+
+Give	VB
+me	PRP
+some	DT
+expensive	JJ
+French	JJ
+food	NN
+near	IN
+Irvine	NNP
+
+Can	MD
+you	PRP
+recommend	VB
+me	PRP
+some	DT
+places	NNS
+to	TO
+eat	VB
+Italian	JJ
+food	NN
+
+Tell	VB
+me	PRP
+cheap	JJ
+food	NN
+places	NNS
+to	TO
+eat	VB
+in	IN
+Las	FW
+vegas	FW
+
+Can	MD
+you	PRP
+recommend	VB
+me	PRP
+some	DT
+Mexican	JJ
+buffet	NN
+to	TO
+eat	VB
+near	IN
+san	FW
+diago	FW
+
+Tell	VB
+me	PRP
+some	DT
+moderate	JJ
+chinese	JJ
+restaurants	NNS
+to	TO
+dine	VB
+near	IN
+Las	FW
+vegas	FW
+
+Tell	VB
+me	PRP
+places	NNS
+to	TO
+eat	VB
+in	FW
+san	FW
+diago	NN
+
+Tell	VB
+me	LS
+places	NNS
+to	TO
+eat	VB
+in	IN
+Santa	FW
+clara	FW
+
+Tell	VB
+me	PRP
+places	NNS
+to	TO
+eat	VB
+yummy	JJ
+indian	JJ
+food	NN
+in	IN
+Palo	FW
+Alto	FW
+
+Indian	JJ
+restaurant	NN
+in	IN
+palo	FW
+alto	FW
+
+Recommend	VB
+cheap	RB
+priced	VBN
+Mexican	JJ
+dinner	NN
+place	NN
+
+Where	WRB
+can	MD
+I	PRP
+get	VB
+a	DT
+good	JJ
+dosa	NN
+place	NN
+near	IN
+Los	FW
+Angeles	FW
+
+Indian	JJ
+places	NNS
+to	TO
+eat	VB
+good	JJ
+dosa	NN
+in	IN
+Mountain	NN
+View	NN
+
+Suggest	JJ
+few	JJ
+places	NNS
+in	IN
+Mountain	NN
+view	NN
+to	TO
+eat	VB
+
+Suggest	JJ
+few	JJ
+places	NNS
+in	IN
+Las	FW
+vegas	FW
+to	TO
+eat	VB
+good	JJ
+Chinese	JJ
+food	NN
+
+Any	DT
+cuisine	NN
+
+Cuisine	NNP
+is	VBZ
+Mexican	NNP
+
+Cuisine	NNP
+is	VBZ
+French	NNP
+
+Can	MD
+you	PRP
+give	VB
+me	PRP
+French	JJ
+restaurants	NNS
+near	IN
+Los	FW
+angeles	FW
+
+Recommend	VB
+me	PRP
+some	DT
+nice	JJ
+Mexican	JJ
+place	NN
+to	TO
+eat	VB
+tonight	NN
+
+Recommend	VB
+me	PRP
+some	DT
+cheap	JJ
+Mexican	JJ
+place	NN
+to	TO
+dine	VB
+near	IN
+los	FW
+Angeles	FW
+
+Can	MD
+you	PRP
+recommend	VB
+me	PRP
+some	DT
+expensive	JJ
+place	NN
+to	TO
+take	VB
+my	PRP$
+girl	NN
+friend	NN
+out	IN
+tonight	NN
+
+Please	VB
+tell	VB
+me	PRP
+some	DT
+good	JJ
+Italian	JJ
+pasta	NN
+place	NN
+in	IN
+Santa	FW
+Clara	FW
+
+I	PRP
+am	VBP
+hungry	JJ
+and	CC
+I	PRP
+want	VBP
+to	TO
+eat	VB
+near	IN
+USC	NNP
+
+I	PRP
+was	VBD
+something	NN
+to	TO
+eat	VB
+in	IN
+Palo	FW
+Alto	FW
+
+Tell	VB
+me	PRP
+some	DT
+Indian	JJ
+place	NN
+to	TO
+eat	VB
+in	IN
+palo	FW
+alto	FW
+
+I	PRP
+prefer	VBP
+spicy	JJ
+food	NN
+near	IN
+orange	JJ
+county	NN
+
+Where	WRB
+can	MD
+I	PRP
+find	VB
+best	JJS
+briyani	NNS
+nearby	RB
+
+Suggest	VB
+me	PRP
+some	DT
+nice	JJ
+restaurants	NNS
+for	IN
+desserts	NNS
+
+Healthy	JJ
+food	NN
+nearby	JJ
+hotel	NN
+
+Roof	NN
+top	JJ
+restaurants	NNS
+near	IN
+by	IN
+me	PRP
+
+Please	VB
+provide	VB
+list	NN
+of	IN
+Mexican	JJ
+cuisines	NNS
+
+Suggest	VB
+some	DT
+Indian	JJ
+restaurants	NNS
+in	IN
+San	NNP
+Francisco	NNP
+
+Find	VB
+Italian	JJ
+cheap	JJ
+restaurants	NNS
+
+Search	VB
+few	JJ
+Chinese	JJ
+cuisines	NNS
+near	IN
+Hollywood	NNP
+
+Recommend	VB
+expensive	JJ
+foods	NNS
+
+I	PRP
+want	VBP
+a	DT
+list	NN
+of	IN
+Japanese	JJ
+cuisines	NNS
+which	WDT
+is	VBZ
+cheap	JJ
+
+I	PRP
+love	VBP
+to	TO
+have	VB
+Indian	JJ
+food	NN
+
+Show	NNP
+me	PRP
+restaurants	NNS
+in	IN
+San	NNP
+Jose	NNP
+
+Show	NN
+me	PRP
+set	VBD
+of	IN
+French	JJ
+cuisines	NNS
+
+I	PRP
+want	VBP
+spicy	FW
+thai	FW
+food	NN
+in	IN
+Malibu	NNP
+
+Can	MD
+you	PRP
+search	VB
+Caribbean	NNP
+foods	NNS
+which	WDT
+is	VBZ
+moderately	RB
+priced	VBN
+
+Let	VB
+me	PRP
+know	VB
+expensive	JJ
+cuisines	NNS
+in	IN
+Palo	NNP
+alto	NN
+
+Recommend	VB
+cheap	JJ
+Thai	NNP
+food	NN
+in	IN
+Mountain	NNP
+view	NN
+
+Help	VB
+me	PRP
+in	IN
+finding	VBG
+restaurants	NNS
+near	IN
+Los	NNP
+Angeles	NNP
+
+I	PRP
+would	MD
+like	VB
+to	TO
+have	VB
+Mediterranean	NNP
+food	NN
+now	RB
+in	IN
+West	NNP
+Adams	NNP
+
+I	PRP
+like	VBP
+expensive	JJ
+Mediterranean	JJ
+food	NN
+
+Love	NN
+restaurants	NNS
+in	IN
+Bay	NNP
+area	NN
+
+Love	NN
+Spanish	JJ
+foods	NNS
+
+Love	NN
+to	TO
+have	VB
+Turkish	JJ
+food	NN
+near	IN
+Milipitas	NNP
+
+Provide	VB
+a	DT
+list	NN
+of	IN
+vegan	JJ
+cuisines	NNS
+which	WDT
+is	VBZ
+expensive	JJ
+
+Provide	VB
+a	DT
+list	NN
+of	IN
+vegetarian	JJ
+restaurants	NNS
+which	WDT
+is	VBZ
+cheap	JJ
+and	CC
+located	JJ
+in	IN
+North	NNP
+Hollywood	NNP
+
+Show	NNP
+me	PRP
+medium	JJ
+priced	VBN
+Italian	JJ
+cuisines	NNS
+
+Show	NNP
+me	PRP
+cheaply	RB
+priced	VBD
+Mexican	JJ
+cuisines	NNS
+near	IN
+USC	NNP
+
+Search	VB
+few	JJ
+restaurants	NNS
+which	WDT
+offers	VBZ
+Caribbean	JJ
+food	NN
+
+Search	VB
+few	JJ
+restaurants	NNS
+in	IN
+Los	NNP
+Angeles	NNP
+
+What	WP
+are	VBP
+the	DT
+restaurants	NNS
+which	WDT
+offers	VBZ
+Indian	NNP
+foods	NNS
+
+What	WP
+are	VBP
+the	DT
+restaurants	NNS
+which	WDT
+offers	VBZ
+expensive	JJ
+Turkish	JJ
+foods	NNS
+
+I	PRP
+would	MD
+love	VB
+to	TO
+eat	VB
+Indian	JJ
+vegetarian	JJ
+food	NN
+
+Thinking	VBG
+of	IN
+eating	VBG
+spicy	JJ
+American	JJ
+food	NN
+
+Find	VB
+a	DT
+list	NN
+of	IN
+Greek	JJ
+Cuisine	NNP
+which	WDT
+offers	VBZ
+moderately	RB
+priced	VBN
+food	NN
+
+Recommend	VB
+few	JJ
+cuisines	NNS
+near	IN
+Irvine	NNP
+
+Suggest	NNP
+Spanish	NNP
+cuisine	NN
+
+Suggest	JJ
+German	JJ
+expensive	JJ
+foods	NNS
+
+I	PRP
+would	MD
+like	VB
+to	TO
+eat	VB
+Korean	JJ
+food	NN
+which	WDT
+is	VBZ
+cheap	JJ
+
+Find	VB
+some	DT
+cuisines	NNS
+which	WDT
+offers	VBZ
+cheap	JJ
+Moroccan	JJ
+food	NN
+
+Find	VB
+some	DT
+restaurants	NNS
+which	WDT
+offers	VBZ
+expensive	JJ
+French	JJ
+food	NN
+near	IN
+San	NNP
+Diego	NNP
+
+Restaurants	NNS
+in	IN
+Pasadena	NNP
+which	WDT
+provides	VBZ
+Korean	JJ
+food	NN
+
+List	NN
+of	IN
+burger	NN
+shops	NNS
+in	IN
+Riverside	NNP
+
+Pizza	NNP
+shops	NNS
+in	IN
+San	NNP
+Diego	NNP
+
+Cheap	JJ
+Pizza	NN
+available	JJ
+in	IN
+Santa	NNP
+clara	NNS
+
+I	PRP
+prefer	VBP
+Chinese	JJ
+food	NN
+near	IN
+Malibu	NNP
+
+I	PRP
+prefer	VBP
+cuisines	NNS
+in	IN
+Palm	NNP
+Springs	NNS
+
+Is	VBZ
+there	RB
+any	DT
+vegan	JJ
+restaurants	NNS
+in	IN
+Long	NNP
+Beach	NNP
+
+Is	VBZ
+there	RB
+any	DT
+cheap	JJ
+Chinese	JJ
+cuisine	NN
+in	IN
+Long	NNP
+Beach	NNP
+
+Let	VB
+me	PRP
+know	VB
+expensive	JJ
+Mexican	JJ
+restaurants	NNS
+
+Let	VB
+me	PRP
+know	VB
+expensive	JJ
+Mexican	JJ
+restaurants	NNS
+in	IN
+Irvine	NNP
+
+How	WRB
+about	IN
+Indian	JJ
+food	NN
+in	IN
+Beverly	NNP
+Hills	NNP
+
+How	WRB
+about	RB
+cheap	JJ
+Indian	JJ
+food	NN
+in	IN
+Beverly	NNP
+Hills	NNP
+
+Santa	NNP
+Barbara	NNP
+
+Tell	VB
+me	PRP
+restaurants	NNS
+around	IN
+Santa	NNP
+Barbara	NNP
+
+Find	VB
+Indian	NNP
+cuisines	NNS
+near	IN
+me	PRP
+
+Search	VB
+restaurants	NNS
+around	IN
+Los	NNP
+Angeles	NNP
+
+I	PRP
+would	MD
+like	VB
+to	TO
+eat	VB
+Thai	NNP
+food	NN
+
+I	PRP
+want	VBP
+moderate	JJ
+priced	VBN
+food	NN
+in	IN
+Beverly	NNP
+Hills	NNP
+
+Cheap	JJ
+food	NN
+
+Cheap	JJ
+Japanese	JJ
+food	NN
+near	IN
+San	NNP
+Francisco	NNP
+
+I	PRP
+need	VBP
+a	DT
+list	NN
+of	IN
+Italian	JJ
+cuisines	NNS
+in	IN
+Irvine	NNP
+
+I	PRP
+need	VBP
+a	DT
+list	NN
+of	IN
+expensive	JJ
+Italian	JJ
+cuisines	NNS
+near	IN
+Santa	NNP
+clara	NNS
+
+Will	MD
+you	PRP
+give	VB
+me	PRP
+a	DT
+list	NN
+of	IN
+costly	JJ
+Mexican	JJ
+restaurants	NNS
+
+I	PRP
+would	MD
+like	VB
+to	TO
+have	VB
+something	NN
+which	WDT
+is	VBZ
+really	RB
+cheap	JJ
+
+I	PRP
+would	MD
+like	VB
+to	TO
+have	VB
+some	DT
+Pizza	NN
+
+Santa	NNP
+Monica	NNP
+cuisines	NNS
+list	VBP
+
+Restaurants	NNS
+which	WDT
+offer	VBP
+Thai	NNP
+food	NN
+
+Restaurants	NNS
+which	WDT
+offer	VBP
+really	RB
+expensive	JJ
+Thai	NNP
+food	NN
+
+Restaurants	NNS
+which	WDT
+offer	VBP
+really	RB
+expensive	JJ
+Thai	NNP
+food	NN
+near	IN
+Mountain	NNP
+view	NN
+
+My	PRP$
+preference	NN
+is	VBZ
+Indian	JJ
+food	NN
+
+Can	MD
+you	PRP
+recommend	VB
+few	JJ
+burger	NN
+shops	NNS
+
+Can	MD
+you	PRP
+provide	VB
+me	PRP
+a	DT
+set	NN
+of	IN
+Mexican	JJ
+cuisines	NNS
+
+Mexican	NNP
+
+I	PRP
+want	VBP
+cheap	JJ
+food	NN
+
+My	PRP$
+location	NN
+is	VBZ
+Palo	NNP
+alto	NN
+
+My	PRP$
+current	JJ
+location	NN
+is	VBZ
+USC	NNP
+
+I	PRP
+prefer	VBP
+Turkish	JJ
+foods	NNS
+
+I	PRP
+love	VBP
+Indian	JJ
+dishes	NNS
+
+I	PRP
+am	VBP
+biased	VBN
+towards	IN
+Chinese	JJ
+food	NN
+
+I	PRP
+am	VBP
+looking	VBG
+for	IN
+cheap	JJ
+food	NN
+
+I	PRP
+am	VBP
+looking	VBG
+for	IN
+Caribbean	JJ
+cuisine	NN
+
+I	PRP
+am	VBP
+looking	VBG
+for	IN
+Spanish	JJ
+cuisine	NN
+
+I	PRP
+am	VBP
+looking	VBG
+for	IN
+cheap	JJ
+indian	JJ
+restaurants	NNS
+
+I	PRP
+like	VBP
+Thai	NNP
+dishes	NNS
+
+I	PRP
+like	VBP
+Mexican	JJ
+food	NN
+varieties	NNS
+
+Lebanese	JJ
+cuisines	NNS
+near	IN
+Anaheim	NNP
+
+Las	NNP
+Vegas	NNP
+cheap	JJ
+Indian	JJ
+food	NN
+
+Simi	NNP
+valley	NN
+cuisines	NNS
+which	WDT
+offers	VBZ
+moderately	RB
+priced	VBN
+food	NN
+
+I	PRP
+can	MD
+afford	VB
+only	RB
+cheap	JJ
+restaurants	NNS
+
+Will	MD
+you	PRP
+please	VB
+suggest	VB
+some	DT
+Pizza	NNP
+corners	NNS

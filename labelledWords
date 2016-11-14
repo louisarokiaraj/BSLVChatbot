@@ -1,0 +1,2532 @@
+Hi	O
+I	O
+would	O
+like	O
+to	O
+eat	O
+something	O
+in	O
+Los	B-LOCATION
+Angeles	I-LOCATION
+
+What	O
+would	O
+you	O
+suggest	O
+me	O
+to	O
+eat	O
+in	O
+Hollywood	B-LOCATION
+Blvd	I-LOCATION
+
+Can	O
+you	O
+suggest	O
+me	O
+good	O
+cheap	B-PRICE
+Indian	B-CUISINE
+Restaurants	O
+
+I	O
+prefer	O
+Spicy	O
+Chinese	B-CUISINE
+
+What	O
+locations	O
+are	O
+you	O
+comfortable	O
+with	O
+
+Suggest	O
+places	O
+near	O
+Los	B-LOCATION
+Angeles	I-LOCATION
+to	O
+have	O
+spicy	O
+Mexican	B-CUISINE
+Food	O
+
+I	O
+am	O
+fine	O
+with	O
+any	O
+cuisine	B-CUISINE
+
+I	O
+am	O
+particular	O
+about	O
+cheap	B-PRICE
+restaurants	O
+near	O
+Hollywood	B-LOCATION
+Blvd	I-LOCATION
+Los	I-LOCATION
+Angeles	I-LOCATION
+
+Please	O
+give	O
+me	O
+expensive	B-PRICE
+Chinese	B-CUISINE
+restaurants	O
+near	O
+Los	B-LOCATION
+Angeles	I-LOCATION
+Downtown	I-LOCATION
+
+Get	O
+me	O
+Chinese	B-CUISINE
+that	O
+are	O
+of	O
+moderate	B-PRICE
+cost	O
+
+Tell	O
+me	O
+cheap	B-PRICE
+restaurants	O
+that	O
+are	O
+of	O
+Indian	B-CUISINE
+type	O
+
+What	O
+would	O
+you	O
+suggest	O
+to	O
+be	O
+best	O
+
+Either	O
+Indian	B-CUISINE
+or	O
+Mexican	B-CUISINE
+
+I	O
+want	O
+to	O
+try	O
+Chinese	B-CUISINE
+buffet	I-CUISINE
+near	O
+Los	B-LOCATION
+Angeles	I-LOCATION
+
+Indian	B-CUISINE
+Cheap	B-PRICE
+and	O
+Spicy	O
+near	O
+me	O
+
+What	O
+cost	O
+range	O
+restaurants	O
+will	O
+you	O
+recommend	O
+
+Hi	O
+I	O
+am	O	
+interested	O
+towards	O
+Chinese	B-CUISINE
+and	O
+Mexican	B-CUISINE
+
+I	O
+want	O
+to	O
+try	O
+some	O
+cheap	B-PRICE
+Italian	B-CUISINE
+Food	O
+near	O
+USC	B-LOCATION
+
+I	O
+want	O
+to	O
+have	O
+some	O
+good	O
+Italian	B-CUISINE
+Pasta	I-CUISINE
+
+Low	B-PRICE
+cost	O
+Mexican	B-CUISINE
+restaurant	O
+
+I	O
+do	O	
+not	O
+like	O
+this	O
+suggestion	O
+Can	O
+you	O
+suggest	O
+me	O
+something	O
+else	O
+
+Hello	O
+How	O
+are	O
+you	O
+
+Ping	O
+some	O
+good	O
+restaurants	O
+to	O
+hang	O
+out	O
+
+What	O
+is	O
+your	O
+name	O
+
+My	O
+name	O
+is	O
+XXX	O
+
+I	O
+would	O
+like	O
+to	O
+dine	O
+in	O
+a	O
+moderate	B-PRICE
+italian	B-CUISINE
+restaurant	O
+near	O
+USC	B-LOCATION
+
+My	O
+name	O
+is	O
+Bharath	O
+
+I	O
+am	O
+looking	O
+for	O
+a	O
+Mexican	B-CUISINE
+restaurant	O
+in	O
+San	B-LOCATION
+Jose	I-LOCATION
+
+Let	O
+me	O
+know	O
+few	O
+restaurants	O
+which	O
+has	O
+the	O
+dishes	O
+in	O
+medium	B-PRICE
+price	I-PRICE	
+range	O
+
+That	O
+sounds	O
+good	O
+
+This	O
+is	O
+Bharath	O
+
+My	O
+name	O
+is	O
+Bharath	O
+
+Bharath	O
+is	O
+my	O
+name	O
+
+Tell	O
+me	O
+about	O
+yourself	O
+
+Can	O
+you	O
+help	O
+me	O
+with	O
+suggesting	O
+an	O
+Italian	B-CUISINE
+cuisine	I-CUISINE
+
+Can	O
+you	O
+help	O
+me	O
+with	O
+suggesting	O
+an	O
+Italian	B-CUISINE
+cuisine	I-CUISINE
+in	O
+Los	B-LOCATION
+Angeles	I-LOCATION
+
+Can	O
+you	O
+help	O
+me	O
+with	O
+choosing	O
+a	O
+cheap	B-PRICE
+Italian	B-CUISINE
+cuisine	I-CUISINE
+in	O
+Hollywood	B-LOCATION
+
+Suggest	O
+few	O
+hotels	O
+in	O
+Santa	B-LOCATION
+monica	I-LOCATION
+
+Suggest	O
+few	O
+hotels	O
+in	O
+Santa	B-LOCATION
+clara	I-LOCATION
+which	O
+offers	O
+Indian	B-CUISINE
+foods	O
+
+Suggest	O
+me	O
+few	O
+expensive	B-PRICE
+cuisines	B-CUISINE
+in	O
+Palo	B-LOCATION
+alto	I-LOCATION
+
+Provide	O
+me	O
+a	O
+list	O
+of	O
+Chinese	B-CUISINE
+restaurants	O
+
+Provide	O
+me	O
+a	O
+list	O
+of	O
+Chinese	B-CUISINE
+restaurants	O
+near	O
+Malibu	B-LOCATION
+
+Can	O
+you	O
+tell	O
+me	O
+is	O
+there	O
+any	O
+Indian	B-CUISINE
+cuisine	I-CUISINE
+near	O
+San	B-LOCATION
+Francisco	I-LOCATION
+
+Is	O
+there	O
+any	O
+Indian	B-CUISINE
+cuisine	I-CUISINE
+near	O
+San	B-LOCATION
+Francisco	I-LOCATION
+
+Is	O
+there	O
+any	O
+cheap	B-PRICE
+Indian	B-CUISINE
+cuisine	I-CUISINE
+near	O
+San	B-LOCATION
+Francisco	I-LOCATION
+
+I	O
+would	O
+like	O
+to	O
+have	O
+Italian	B-CUISINE
+food	O
+in	O
+average	B-PRICE
+price	I-PRICE
+range	O
+
+I	O
+would	O
+like	O
+to	O
+eat	O
+Japanese	B-CUISINE
+food	O
+now	O
+
+I	O
+prefer	O
+expensive	B-PRICE
+food	O
+for	O
+today’s		O
+dinner	O
+
+I	O
+prefer	O
+spicy	O
+Thai	B-CUISINE
+food	O
+for	O
+lunch	O
+
+Moderate	B-PRICE
+cost	O
+Mexican	B-CUISINE
+restaurants	O
+
+Expensive	B-PRICE
+Mexican	B-CUISINE
+restaurants	O
+in	O
+Mountain	B-LOCATION
+view	I-LOCATION
+
+Recommend	O
+a	O
+cheap	B-PRICE
+Caribbean	B-CUISINE
+cuisine	I-CUISINE
+
+Recommend	O
+a	O	
+Caribbean	B-CUISINE
+cuisine	I-CUISINE
+in	O
+Los	B-LOCATION
+angeles	I-LOCATION
+
+I	O
+am	O
+looking	O
+for	O
+thai	B-CUISINE
+food	O
+in	O
+Sunnyvale	B-LOCATION
+
+It	O
+would	O
+be	O
+great	O
+if	O
+you	O
+suggest	O
+few	O
+chinese	B-CUISINE
+food	O
+
+Cheap	B-PRICE
+indian	B-CUISINE
+cuisine		I-CUISINE
+
+Looking	O
+for	O
+restaurants	O
+in	O
+Las	B-LOCATION
+vegas	I-LOCATION
+
+Find	O
+some	O
+indian	B-CUISINE
+cuisines	I-CUISINE
+in	O
+Las	B-LOCATION
+Vegas	I-LOCATION
+
+Suggest	O
+any	O
+type	O
+of	O
+restaurant	O
+which	O
+is	O
+cheap	B-PRICE
+in	O
+San	B-LOCATION
+Jose	I-LOCATION
+
+Hi	O
+I	O
+feel	O
+like	O
+hungry	O
+like	O
+to	O
+have	O
+some	O
+food	O
+
+Can	O
+you	O
+suggest	O
+me	O
+some	O
+restaurants	O
+for	O
+kids	O
+
+Can	O
+you	O
+suggest	O
+me	O
+some	O
+restaurants	O
+that	O
+is	O
+cheap	B-PRICE
+and	O
+provide	O
+corporate	O
+discounts	O
+
+Suggest	O
+me	O
+some	O
+restaurants	O
+that	O
+serves	O
+good	O
+seafood	B-CUISINE
+
+Suggest	O
+me	O
+some	O
+restaurant	O
+near	O
+seashore	B-LOCATION
+
+Suggest	O
+me	O
+a	O
+good	O
+vegan	B-CUISINE
+restaurant	O
+near	O
+downtown	B-LOCATION
+LA	I-LOCATION
+
+Like	O
+to	O
+go	O
+to	O
+Indian	B-CUISINE
+Buffet	I-CUISINE
+suggest	O
+me	O
+some	O
+cheap	B-PRICE
+and	O
+tasty	O
+hotels	O
+
+Suggest	O
+me	O
+some	O
+restaurants	O
+that	O
+has	O
+serves	O
+good	O
+wine	B-CUISINE
+
+Suggest	O
+me	O
+some	O
+drive	O
+through	O
+restaurants	O
+
+List	O
+me	O
+top	O
+3	O
+sushi	B-CUISINE
+restaurants	O
+near	O
+santa	B-LOCATION
+monica	I-LOCATION
+
+Suggest	O
+me	O
+good	O
+restaurants	O
+that	O
+serves	O
+buffet	B-CUISINE
+for	O
+dinner	O
+near	O
+LA	B-LOCATION
+
+Looking	O
+for	O
+cheap	B-PRICE
+italian	B-CUISINE
+cuisine		I-CUISINE
+
+Looking	O
+for	O
+multi	O
+cuisine		B-CUISINE
+restaurants	O
+
+Suggest	O
+me	O
+some	O
+restaurants	O
+that	O
+serves	O
+greens		B-CUISINE
+
+Suggest	O
+me	O
+some	O
+self	O
+cooking	O
+restaurants	O
+near	O
+pasadena	B-LOCATION
+
+Suggest	O
+me	O
+some	O
+to-go	O
+Indian	B-CUISINE
+restaurants	O
+in	O
+LA	B-LOCATION
+
+Suggest	O
+me	O
+some	O
+restaurants	O
+that	O
+serves	O
+dosa	B-CUISINE
+
+Can	O
+u	O
+tell	O
+me	O
+some	O
+good	O
+restaurants	O
+that	O
+is	O
+less	O
+crowded	O
+and	O
+serves	O
+cheap	B-PRICE
+food	O
+
+I	O
+like	O
+Mexican	B-CUISINE
+food	O
+
+I	O
+don’t	O
+want	O
+chinese	B-CUISINE
+
+Suggest	O
+me	O
+only	O
+thai	B-CUISINE
+food	O
+
+Tell	O
+me	O
+some	O
+hotels	O
+that	O
+serves		O
+healthy	O
+food	O
+
+Suggest	O
+me	O
+some	O
+hotels	O
+that	O
+serves	O
+organic	B-CUISINE
+food	O
+in	O
+LA	B-LOCATION
+
+Suggest	O
+me	O
+some	O
+good	O
+hotels	O
+that	O
+serves	O
+fresh	O
+salads	B-CUISINE
+
+Suggest	O
+me	O
+some	O
+hotels	O
+of	O
+your	O
+choice	O
+near	O
+NYC	B-LOCATION
+
+Hey	O
+can	O
+you	O
+help	O
+me	O
+in	O
+finding	O	
+a	O
+good	O
+Indian	B-CUISINE
+cuisine		I-CUISINE
+near	O
+my	O
+home	O
+
+Is	O
+there	O
+any	O
+good	O
+mexican	B-CUISINE
+restaurant	O
+near	O
+downtown	O
+los	B-LOCATION
+angeles	I-LOCATION
+
+I	O
+want	O
+something	O
+spicy	O
+and	O
+cheap	B-PRICE
+
+Can	O
+you	O
+suggest	O
+a	O
+good	O
+restaurant	O
+
+Where	O
+can	O
+I	O
+get	O
+good	O
+pasta	B-CUISINE
+
+I	O
+would	O
+prefer	O
+Italian	B-CUISINE
+cuisine	I-CUISINE
+near	O
+my	O
+home	O
+
+Can	O
+you	O
+recommend	O
+me	O
+Italian	B-CUISINE
+food	I-CUISINE
+restaurants	O
+preferably	O
+moderate	B-PRICE
+in	O
+cost	O
+
+Suggest	O
+me	O
+good	O
+mexican	B-CUISINE
+food	O
+place	O
+
+Where	O
+can	O
+I	O
+find	O
+Chinese	B-CUISINE
+food	O
+
+Near	O
+pasadena	B-LOCATION
+what	O
+are	O
+the	O
+Indian	B-CUISINE
+restaurants	O
+
+Indian	B-CUISINE
+restaurants	O
+please	O
+
+I	O
+would	O
+like	O
+to	O
+have	O
+some	O
+spicy	O
+food	O
+
+Help	O
+me	O
+in	O
+finding	O
+pizza	B-CUISINE
+place	O
+
+Quick	O
+question	O
+chinese	B-CUISINE
+food	O
+place	O
+near	O
+artesia	B-LOCATION
+
+Recommend	O
+good	O
+indian	B-CUISINE
+restaurant	O
+in	O
+santa	B-LOCATION
+monica	I-LOCATION
+
+Cheap	B-PRICE
+thai	B-CUISINE
+food	O
+
+Very	O
+hungry	O
+get	O
+me	O
+some	O
+pizza	B-CUISINE
+please	O
+
+How	O
+about	O
+something	O
+spicy	O
+cheap	B-PRICE
+indian	B-CUISINE
+food	O
+near	O
+ellendale	B-LOCATION
+place	O
+
+Seafood	B-CUISINE
+near	O
+malibu	B-LOCATION
+
+Burger	B-CUISINE
+place	O
+near	O
+me	O
+
+Give	O
+me	O
+some	O
+restaurants	O
+near	O
+Los	B-LOCATION
+Angeles	I-LOCATION
+
+Give	O
+me	O
+cheap	B-PRICE
+restaurants	O
+at	O
+San	B-LOCATION
+Francisco	I-LOCATION
+
+Indian	B-CUISINE
+cuisine	O
+at	O
+los	B-LOCATION
+angeles	I-LOCATION
+
+I	O
+want	O
+Mexican	B-CUISINE
+buffet	O
+which	O
+is	O
+cheap	B-PRICE
+
+I	O
+want	O
+to	O
+dine	O
+in	O
+a	O
+cheap	B-PRICE
+Indian	B-CUISINE
+buffet	O
+near	O
+San	B-LOCATION
+Jose	I-LOCATION
+
+Give	O
+me	O
+some	O
+cheap	B-PRICE
+Indian	B-CUISINE
+masala	O
+dosa	B-CUISINE
+near	O
+downtown	B-LOCATION
+Los	B-LOCATION
+Angeles	I-LOCATION
+
+Tell	O
+me	O
+expensive	B-PRICE
+restaurants	O
+to	O
+dine	O
+tonight	O
+
+Can	O
+you	O
+tell	O
+me	O
+some	O
+good	O
+French	B-CUISINE
+restaurant	O
+to	O
+hangout	O
+
+Any	O
+good	O
+Mexican	B-CUISINE
+places	O
+to	O
+eat	O
+at	O
+New	B-LOCATION
+York	I-LOCATION
+
+Any	O
+good	O
+French	B-CUISINE
+restaurant	O
+to	O
+dine	O
+near	O
+San	B-LOCATION
+Diago	I-LOCATION
+
+Any	O
+good	O
+Italian	B-CUISINE
+restaurant	O
+to	O
+eat	O
+near	O
+Nevada	B-LOCATION
+
+Any	O
+good	O
+Italian	B-CUISINE
+restaurant	O
+to	O
+eat	O
+near	O
+Los	B-LOCATION
+Angeles	I-LOCATION
+
+Any	O
+good	O
+Indian	B-CUISINE
+restaurant	O
+to	O
+eat	O
+near	O
+New	B-LOCATION
+york	I-LOCATION
+
+Any	O
+good	O
+Indian	B-CUISINE
+buffet	O
+near	O
+New	B-LOCATION
+jersey	I-LOCATION
+
+Give	O
+me	O
+some	O
+good	O
+Indian	B-CUISINE
+buffet	O
+place	O
+to	O
+eat	O
+at	O
+Seattle	B-LOCATION
+
+Give	O
+me	O
+some	O
+cheap	B-PRICE
+restaurants	O
+in	O
+Seattle	B-LOCATION
+downtown	B-LOCATION
+
+Suggest	O
+me	O
+good	O
+places	O
+to	O
+eat	O
+in	O
+los	B-LOCATION
+angeles	I-LOCATION
+
+Tell	O
+me	O
+top	O
+3	O
+best	O
+Indian	B-CUISINE
+buffet	O
+restaurants	O
+to	O
+eat	O
+near	O
+San	B-LOCATION
+Francisco	I-LOCATION
+
+Best	O
+Indian	B-CUISINE
+place	O
+to	O
+eat	O
+
+Best	O
+Thai	B-CUISINE
+place	O
+to	O
+dine	O
+tonight	O
+at	O
+Seattle	B-LOCATION
+
+Best	O
+Mexican	B-CUISINE
+place	O
+to	O
+eat	O
+tonight	O
+near	O
+San	B-LOCATION
+jose	I-LOCATION
+
+Tell	O
+me	O
+some	O
+expensive	B-PRICE
+place	O
+to	O
+eat	O
+near	O
+Hollywood	B-LOCATION
+blvd	I-LOCATION
+
+Tell	O
+me	O
+some	O
+cheap	B-PRICE
+place	O
+to	O
+eat	O
+near	O
+USC	B-LOCATION
+
+Tell	O
+me	O
+some	O
+expensive	B-PRICE
+restaurants	O
+near	O
+USC	B-LOCATION
+
+Tell	O
+me	O
+some	O
+moderate	B-PRICE
+restaurants	O
+near	O
+USC	B-LOCATION
+
+Give	O
+me	O
+some	O
+cheap	B-PRICE
+hotel	O
+to	O
+eat	O
+in	O
+Los	B-LOCATION
+Angeles	I-LOCATION
+
+Expensive	B-PRICE
+Italian	B-CUISINE
+and	O
+in	O
+Santa	B-LOCATION
+clara	I-LOCATION
+
+Can	O
+you	O
+please	O
+give	O
+me	O
+some	O
+moderate	B-PRICE
+priced	O
+French	B-CUISINE
+cuisine	O
+near	O
+Santa	B-LOCATION
+clara	I-LOCATION
+
+Tell	O
+me	O
+places	O
+to	O
+eat	O
+
+Give	O
+me	O
+cheap	B-PRICE
+places	O
+to	O
+dine	O
+
+Suggest	O
+me	O
+expensive	B-PRICE
+restaurants	O
+to	O
+eat	O
+good	O
+Mexican	B-CUISINE
+buffet	O
+
+List	O
+some	O
+moderate	B-PRICE
+priced	O
+Chinese	B-CUISINE
+cuisine	O
+to	O
+eat	O
+tonight	O
+
+Can	O
+you	O
+suggest	O
+some	O
+medium	B-PRICE
+prices	O
+French	B-CUISINE
+cuisine	O
+in	O
+New	B-LOCATION
+york	I-LOCATION
+city	O
+
+Chabot		O
+can	O
+you	O
+tell	O
+me	O
+some	O
+good	O
+Italian	B-CUISINE
+cuisine		O
+near	O
+Santa	B-LOCATION
+Clara	I-LOCATION
+of	O
+California	B-LOCATION
+
+Hey	O
+tell	O
+me	O
+some	O
+moderate	B-PRICE
+chinese	B-CUISINE
+restaurants	O
+at	O
+los	B-LOCATION
+angeles	I-LOCATION
+
+Suggest	O
+me	O
+best	O
+indian	B-CUISINE
+cuisine	O
+which	O
+is	O
+expensive	B-PRICE
+
+Restaurants	O
+near	O
+santa	B-LOCATION
+clara	I-LOCATION
+
+San	B-LOCATION
+jose	I-LOCATION
+
+Indian	B-CUISINE
+cuisine	O
+near	O
+san	B-LOCATION
+Francisco	I-LOCATION
+
+Indian	O
+buffet	O
+
+I	O
+want	O
+it	O
+to	O
+be	O
+cheap	B-PRICE
+
+Give	O
+me	O
+some	O
+expensive	B-PRICE
+restaurants	O
+in	O
+long	B-LOCATION
+beach	I-LOCATION
+
+Tell	O
+me	O
+indian	V-CUISINE
+buffet	O
+restaurants	O
+near	O
+Irvine	B-LOCATION
+
+Indian	B-CUISINE
+
+Chinese	B-CUISINE
+
+Dude	O
+tell	O
+me	O
+some	O
+good	O
+and	O
+cheap	B-PRICE
+restaurants	O
+near	O
+long	B-LOCATION
+Beach	I-LOCATION
+
+Give	O
+me	O
+restaurants	O
+in	O
+and	O
+around	O
+los	B-LOCATION
+angeles	I-LOCATION
+
+Restaurants	O
+in	O
+and	O
+around	O
+san	B-LOCATION
+jose	I-LOCATION
+
+Tell	O
+me	O
+moderate	B-PRICE
+priced	O
+restaurants	O
+in	O
+and	O
+around	O	
+Beverly	B-LOCATION
+Hills	B-LOCATION
+
+Good	O
+places	O
+to	O
+eat	O
+in	O
+downtown	B-LOCATION
+of	O
+san	B-LOCATION
+jose	I-LOCATION
+
+Places	O
+to	O
+eat	O
+in	O
+seattle	B-LOCATION
+
+Indian	B-CUISINE
+places	O
+to	O
+eat	O
+in	O
+seattle	B-LOCATION
+
+Recommend	O
+me	O
+some	O
+good	O
+restaurants	O
+in	O
+long	B-LOCATION
+beach	I-LOCATION
+
+Please	O
+recommend	O
+few	O
+cheap	B-PRICE
+Chinese	B-CUISINE
+buffet	O
+in	O
+los	B-LOCATION
+angeles	I-LOCATION
+
+Please	O
+suggest	O
+me	O
+some	O
+nice	O
+and	O
+expensive	B-PRICE
+restaurants	O
+in	O
+and	O
+around	O
+USC	B-LOCATION
+
+Where	O
+can	O
+I	O
+get	O
+some	O
+good	O
+Mexican	B-CUISINE
+food	O
+
+Places	O
+to	O
+eat	O
+Indian	B-CUISINE
+buffet	O
+near	O	
+Irvine	B-LOCATION
+
+Can	O
+you	O
+please	O
+give	O
+me	O
+some	O
+good	O
+French	B-CUISINE
+restaurants	O
+to	O
+eat	O
+near	O
+long	B-LOCATION
+beach	I-LOCATION
+and	O
+is	O
+cheap	B-PRICE
+
+Recommend	O
+me	O
+some	O
+cheap	B-PRICE
+and	O
+good	O
+restaurants	O
+in	O
+mountain	B-LOCATION
+view	I-LOCATION
+
+List	O
+few	O
+expensive	B-PRICE
+indian	B-CUISINE
+cuisine	O
+near	O
+Palo	B-LOCATION
+Alto	I-LOCATION
+
+Give	O
+me	O
+cheap	B-PRICE
+restaurants	O
+of	O
+Indian	B-CUISINE
+cuisine	O
+in	O
+San	B-LOCATION
+Francisco	I-LOCATION
+
+Can	O
+you	O
+please	O
+recommend	O
+some	O
+moderate	B-PRICE
+chinese	B-CUISINE
+restaurant	O
+in	O
+Santa	B-LOCATION
+clara	I-LOCATION
+
+Kindly	O
+suggest	O
+me	O
+some	O
+cheap	B-PRICE
+and	O
+best	O
+indian	B-CUISINE
+and	O
+Mexican	B-CUISINE
+food	O
+places	O
+near	O
+las	B-LOCATION
+vegas	I-LOCATION
+
+Restaurants	O
+in	O
+Las	B-LOCATION
+Vegas	I-LOCATION
+
+Give	O
+me	O
+some	O
+Mexican	B-CUISINE
+food	O
+place	O
+In	O
+Los	B-LOCATION
+Angeles	I-LOCATION
+
+Cheap	B-PRICE
+restaurants	O
+to	O
+eat	O
+in	O
+Hollywood	B-LOCATION
+blvd	I-LOCATION
+
+Is	O
+there	O
+a	O
+good	O
+chinese	B-CUISINE
+place	O
+dine	O
+tonight	O
+near	O
+santa	B-LOCATION
+clara	I-LOCATION
+
+Tell	O
+me	O
+some	O
+top	O
+notch	O
+restaurants	O
+in	O
+Las	B-LOCATION
+vegas	I-LOCATION
+
+Give	O
+me	O
+good	O
+rated	O
+moderate	B-PRICE
+priced	O
+indian	B-CUISINE
+restaurants	O
+in	O
+Los	B-LOCATION
+angeles	I-LOCATION
+
+Chinese	B-CUISINE
+buffet	O
+places	O
+in	O
+Santa	B-LOCATION
+Clara	I-LOCATION
+
+Tell	O
+me	O
+some	O
+good	O
+roof-top	O
+places	O
+to	O
+eat	O
+in	O
+san	B-LOCATION
+diago	I-LOCATION
+
+Recommend	O
+me	O
+some	O
+expensive	B-PRICE
+Mexican	B-CUISINE
+place	O
+to	O
+eat	O
+near	O
+USC	B-LOCATION
+
+Please	O
+recommend	O
+me	O
+some	O
+cheap	B-PRICE
+and	O
+best	O
+places	O
+to	O
+dine	O
+in	O
+and	O
+around	O
+las	B-LOCATION
+vegas	I-LOCATION
+
+Please	O
+list	O
+me	O
+some	O
+good	O
+places	O
+to	O
+eat	O
+tonight	O
+
+Please	O
+list	O
+me	O
+few	O
+moderate	B-PRICE
+priced	O
+Italian	B-CUISINE
+restaurant	O
+near	O
+long	B-LOCATION
+beach	I-LOCATION
+
+Give	O
+me	O
+some	O
+expensive	B-PRICE
+French	B-CUISINE
+food	O
+near	O
+Irvine	B-LOCATION
+
+Can	O
+you	O
+recommend	O
+me	O
+some	O
+places	O
+to	O
+eat	O
+Italian	B-CUISINE
+food	O
+
+Tell	O
+me	O
+cheap	B-PRICE
+food	O
+places	O
+to	O
+eat	O
+in	O
+Las	B-LOCATION
+vegas	I-LOCATION
+
+Can	O
+you	O
+recommend	O
+me	O
+some	O
+Mexican	B-CUISINE
+buffet	O
+to	O
+eat	O
+near	O
+san	B-LOCATION
+diago	I-LOCATION
+
+Tell	O
+me	O
+some	O
+moderate	B-PRICE
+chinese	B-CUISINE
+restaurants	O
+to	O
+dine	O
+near	O
+Las	B-LOCATION
+vegas	I-LOCATION
+
+Tell	O
+me	O
+places	O
+to	O
+eat	O
+in	O
+san	B-LOCATION
+diago	I-LOCATION
+
+Tell	O
+me	O	
+places	O
+to	O
+eat	O
+in	O
+Santa	B-LOCATION
+clara	I-LOCATION
+
+Tell	O
+me	O
+places	O
+to	O
+eat	O
+yummy	O
+indian	B-CUISINE
+food	O
+in	O
+Palo	B-LOCATION
+Alto	I-LOCATION
+
+Indian	B-CUISINE
+restaurant	O
+in	O
+palo	B-LOCATION
+alto	I-LOCATION
+
+Recommend	O
+cheap	B-PRICE
+priced	O
+Mexican	B-CUISINE
+dinner	O
+place	O
+
+Where	O
+can	O
+I	O
+get	O
+a	O
+good	O
+dosa	B-CUISINE
+place	O
+near	O
+Los	B-LOCATION
+Angeles	I-LOCATION
+
+Indian	B-CUISINE
+places	O
+to	O
+eat	O
+good	O
+dosa	B-CUISINE
+in	O
+Mountain	B-LOCATION
+View	I-LOCATION
+
+Suggest	O
+few	O
+places	O
+in	O
+Mountain	B-LOCATION
+view	I-LOCATION
+to	O
+eat	O
+
+Suggest	O
+few	O
+places	O
+in	O
+Las	B-LOCATION
+vegas	I-LOCATION
+to	O
+eat	O
+good	O
+Chinese	B-CUISINE
+food	O
+
+Any	O
+cuisine	O
+
+Cuisine	O
+is	O
+Mexican	B-CUISINE
+
+Cuisine	O
+is	O
+French	B-CUISINE
+
+Can	O
+you	O
+give	O
+me	O
+French	B-CUISINE
+restaurants	O
+near	O
+Los	B-LOCATION
+angeles	I-LOCATION
+
+Recommend	O
+me	O
+some	P
+nice	O
+Mexican	B-CUISINE
+place	O
+to	O
+eat	O
+tonight	O
+
+Recommend	O
+me	O
+some	O
+cheap	B-PRICE
+Mexican	B-CUISINE
+place	O
+to	O
+dine	O
+near	O
+los	B-LOCATION
+Angeles	I-LOCATION
+
+Can	O
+you	O
+recommend	O
+me	O
+some	O
+expensive	B-PRICE
+place	O
+to	O
+take	O
+my	O
+girl	O
+friend	O
+out	O
+tonight	O
+
+Please	O
+tell	O
+me	O
+some	O
+good	O
+Italian	B-CUISINE
+pasta	B-CUISINE
+place	O
+in	O
+Santa	B-LOCATION
+Clara	I-LOCATION
+
+I	O
+am	O
+hungry	O
+and	O
+I	O
+want	O
+to	O
+eat	O
+near	O
+USC	B-LOCATION
+
+I	O
+was	O
+something	O
+to	O
+eat	O
+in	O
+Palo	B-LOCATION
+Alto	I-LOCATION
+
+Tell	O
+me	O
+some	O
+Indian	B-CUISINE
+place	O
+to	O
+eat	O
+in	O
+palo	B-LOCATION
+alto	I-LOCATION
+
+I	O
+prefer	O
+spicy	O
+food	O
+near	O
+orange	B-LOCATION
+county	I-LOCATION
+
+Where	O
+can	O
+I	O
+find	O
+best	O
+briyani	B-CUISINE
+nearby	O
+
+Suggest	O
+me	O
+some	O
+nice	O
+restaurants	O
+for	O
+desserts	O
+
+Healthy	O
+food	O
+nearby	O
+hotel	O
+
+Roof	O
+top	O
+restaurants	O
+near	O
+by	O
+me	O
+
+Please	O
+provide	O
+list	O
+of	O
+Mexican	B-CUISINE
+cuisines	O
+
+Suggest	O
+some	O
+Indian	B-CUISINE
+restaurants	O
+in	O
+San	B-LOCATION
+Francisco	I-LOCATION
+
+Find	O
+Italian	B-CUISINE
+cheap	B-PRICE
+restaurants	O
+
+Search	O
+few	O
+Chinese	B-CUISINE
+cuisines	O
+near	O
+Hollywood	B-LOCATION
+
+Recommend	O
+expensive	B-PRICE
+foods	O
+
+I	O
+want	O
+a	O
+list	O
+of	O
+Japanese	B-CUISINE
+cuisines	O
+which	O
+is	O
+cheap	B-PRICE
+
+I	O
+love	O
+to	O
+have	O
+Indian	B-CUISINE
+food	O
+
+Show	O
+me	O
+restaurants	O
+in	O
+San	B-LOCATION
+Jose	I-LOCATION
+
+Show	O
+me	O
+set	O
+of	O
+French	B-CUISINE
+cuisines	O
+
+I	O
+want	O
+spicy	O
+thai	B-CUISINE
+food	O
+in	O
+Malibu	B-LOCATION
+
+Can	O
+you	O
+search	O
+Caribbean	B-CUISINE
+foods	O
+which	O
+is	O
+moderately	B-PRICE
+priced	O
+
+Let	O
+me	O
+know	O
+expensive	B-PRICE
+cuisines	O
+in	O
+Palo	B-LOCATION
+alto	I-LOCATION
+
+Recommend	O
+cheap	B-PRICE
+Thai	B-CUISINE
+food	O
+in	O
+Mountain	B-LOCATION	
+view	I-LOCATION
+
+Help	O
+me	O
+in	O
+finding	O
+restaurants	O
+near	O
+Los	B-LOCATION
+Angeles	I-LOCATION
+
+I	O
+would	O
+like	O
+to	O
+have	O
+Mediterranean	B-CUISINE
+food	O
+now	O
+in	O
+West	B-LOCATION
+Adams	I-LOCATION
+
+I	O
+like	O
+expensive	B-PRICE
+Mediterranean	B-LOCATION
+food	O
+
+Love	O
+restaurants	O
+in	O
+Bay	B-LOCATION
+area	I-LOCATION
+
+Love	O
+Spanish	B-CUISINE
+foods	O
+
+Love	O
+to	O
+have	O
+Turkish	B-CUISINE
+food	O
+near	O
+Milipitas	B-LOCATION
+
+Provide	O
+a	O
+list	O
+of	O
+vegan	B-CUISINE
+cuisines	O
+which	O
+is	O
+expensive	B-PRICE
+
+Provide	O
+a	O
+list	O
+of	O
+vegetarian	B-CUISINE
+restaurants	O
+which	O
+is	O
+cheap	B-PRICE
+and	O
+located	O
+in	O
+North	I-LOCATION
+Hollywood	B-LOCATION
+
+Show	O
+me	O
+medium	B-PRICE
+priced	O
+Italian	B-CUISINE
+cuisines	O
+
+Show	O
+me	O
+cheaply	B-PRICE
+priced	O
+Mexican	B-CUISINE
+cuisines	O
+near	O
+USC	B-LOCATION
+
+Search	O
+few	O
+restaurants	O
+which	O
+offers	O
+Caribbean	B-CUISINE
+food	O
+
+Search	O
+few	O
+restaurants	O
+in	O
+Los	B-LOCATION
+Angeles	I-LOCATION
+
+What	O
+are	O
+the	O
+restaurants	O
+which	O
+offers	O
+Indian	B-CUISINE
+foods	O
+
+What	O
+are	O
+the	O
+restaurants	O
+which	O
+offers	O
+expensive	B-PRICE
+Turkish	B-CUISINE
+foods	O
+
+I	O
+would	O
+love	O
+to	O
+eat	O
+Indian	B-CUISINE
+vegetarian	I-CUISINE
+food	O
+
+Thinking	O
+of	O
+eating	O
+spicy	O
+American	B-CUISINE
+food	O
+
+Find	O
+a	O
+list	O
+of	O
+Greek	B-CUISINE
+Cuisine	O
+which	O
+offers	O
+moderately	B-PRICE
+priced	O
+food	O
+
+Recommend	O
+few	O
+cuisines	O
+near	O
+Irvine	O
+
+Suggest	O
+Spanish	B-CUISINE
+cuisine		O
+
+Suggest	O
+German	B-CUISINE
+expensive	B-PRICE
+foods	O
+
+I	O
+would	O
+like	O
+to	O
+eat	O
+Korean	B-CUISINE
+food	O
+which	O
+is	O
+cheap	B-PRICE
+
+Find	O
+some	O
+cuisines	O
+which	O
+offers	O
+cheap	B-PRICE
+Moroccan	B-CUISINE
+food	O
+
+Find	O
+some	O
+restaurants	O
+which	O
+offers	O
+expensive	B-PRICE
+French	B-CUISINE
+food	O
+near	O
+San	B-LOCATION
+Diego	I-LOCATION
+
+Restaurants	O
+in	O
+Pasadena	B-LOCATION
+which	O
+provides	O
+Korean	B-CUISINE
+food	O
+
+List	O
+of	O
+burger	B-CUISINE
+shops	O
+in	O
+Riverside	B-LOCATION
+
+Pizza	B-CUISINE
+shops	O
+in	O
+San	B-LOCATION
+Diego	I-LOCATION
+
+Cheap	B-PRICE
+Pizza	B-CUISINE
+available	O
+in	O
+Santa	B-LOCATION
+clara	I-LOCATION
+
+I	O
+prefer	O
+Chinese	B-CUISINE
+food	O
+near	O
+Malibu	B-LOCATION
+
+I	O
+prefer	O
+cuisines	O
+in	O
+Palm	B-LOCATION
+Springs	I-LOCATION
+
+Is	O
+there	O
+any	O
+vegan	B-CUISINE
+restaurants	O
+in	O
+Long	B-LOCATION
+Beach	I-LOCATION	
+
+Is	O
+there	O
+any	O
+cheap	B-PRICE
+Chinese	B-CUISINE
+cuisine	O
+in	O
+Long	B-LOCATION
+Beach	I-LOCATION
+
+Let	O
+me	O
+know	O
+expensive	B-PRICE
+Mexican	B-CUISINE
+restaurants	O
+
+Let	O
+me	O
+know	O
+expensive	B-PRICE
+Mexican	B-CUISINE
+restaurants	O
+in	O
+Irvine	B-LOCATION
+
+How	O
+about	O
+Indian	B-CUISINE
+food	O
+in	O
+Beverly	B-LOCATION
+Hills	I-LOCATION
+
+How	O
+about	O
+cheap	B-PRICE
+Indian	B-CUISINE
+food	O
+in	O
+Beverly	B-LOCATION
+Hills	I-LOCATION
+
+Santa	B-LOCATION
+Barbara	I-LOCATION
+
+Tell	O
+me	O
+restaurants	O
+around	O
+Santa	B-LOCATION
+Barbara	I-LOCATION
+
+Find	O
+Indian	B-CUISINE
+cuisines	O
+near	O
+me	O
+
+Search	O
+restaurants	O
+around	O
+Los	B-LOCATION
+Angeles	I-LOCATION
+
+I	O
+would	O
+like	O
+to	O
+eat	O
+Thai	B-CUISINE
+food	O
+
+I	O
+want	O
+moderate	B-PRICE
+priced	O
+food	O
+in	O
+Beverly	B-LOCATION
+Hills	I-LOCATION
+
+Cheap	B-PRICE
+food	O
+
+Cheap	B-PRICE
+Japanese	B-CUISINE
+food	O
+near	O
+San	B-LOCATION
+Francisco	I-LOCATION
+
+I	O
+need	O
+a	O
+list	O
+of	O
+Italian	B-CUISINE
+cuisines	O
+in	O
+Irvine	B-LOCATION
+
+I	O
+need	O
+a	O
+list	O
+of	O
+expensive	B-PRICE
+Italian	B-CUISINE
+cuisines	O
+near	O
+Santa	B-LOCATION
+clara	I-LOCATION
+
+Will	O
+you	O
+give	O
+me	O
+a	O
+list	O
+of	O
+costly	B-PRICE
+Mexican	B-CUISINE
+restaurants	O
+
+I	O
+would	O
+like	O
+to	O
+have	O
+something	O
+which	O
+is	O
+really	O
+cheap	B-PRICE
+
+I	O
+would	O
+like	O
+to	O
+have	O
+some	O
+Pizza	B-CUISINE
+
+Santa	B-LOCATION
+Monica	I-LOCATION
+cuisines	O
+list	O
+
+Restaurants	O
+which	O
+offer	O
+Thai	B-CUISINE
+food	O
+
+Restaurants	O
+which	O
+offer	O
+really	O
+expensive	B-PRICE
+Thai	B-CUISINE
+food	O
+
+Restaurants	O
+which	O
+offer	O
+really	O
+expensive	B-PRICE
+Thai	B-CUISINE
+food	O
+near	O
+Mountain	B-LOCATION
+view	I-LOCATION
+
+My	O
+preference	O
+is	O
+Indian	B-CUISINE
+food	O
+
+Can	O
+you	O
+recommend	O
+few	O
+burger	B-CUISINE
+shops	O
+
+Can	O
+you	O
+provide	O
+me	O
+a	O
+set	O
+of	O
+Mexican	B-CUISINE
+cuisines	O
+
+Mexican	B-CUISINE
+
+I	O
+want	O
+cheap	B-PRICE
+food	O
+
+My	O
+location	O
+is	O
+Palo	B-LOCATION
+alto	I-LOCATION
+
+My	O
+current	O
+location	O
+is	O
+USC	B-LOCATION
+
+I	O
+prefer	O
+Turkish	B-CUISINE
+foods	O
+
+I	O
+love	O
+Indian	B-CUISINE
+dishes	O
+
+I	O
+am	O
+biased	O
+towards	O
+Chinese	B-CUISINE
+food	O
+
+I	O
+am	O
+looking	O
+for	O
+cheap	B-PRICE
+food	O
+
+I	O
+am	O
+looking	O
+for	O
+Caribbean	B-CUISINE
+cuisine	O
+
+I	O
+am	O
+looking	O
+for	O
+Spanish	B-CUISINE
+cuisine	O
+
+I	O
+am	O
+looking	O
+for	O
+cheap		B-PRICE
+indian	B-CUISINE
+restaurants	O
+
+I	O
+like	O
+Thai	B-CUISINE
+dishes	O
+
+I	O
+like	O
+Mexican	B-CUISINE
+food	O
+varieties	O
+
+Lebanese	B-CUISINE
+cuisines	O
+near	O
+Anaheim	B-LOCATION
+
+Las	B-LOCATION
+Vegas	I-LOCATION
+cheap	B-PRICE
+Indian	B-CUISINE
+food	O
+
+Simi	B-LOCATION
+valley	I-LOCATION
+cuisines	O
+which	O
+offers	O
+moderately	B-PRICE
+priced	O
+food	O
+
+I	O
+can	O
+afford	O
+only	O
+cheap	B-PRICE
+restaurants	O
+
+Will	O
+you	O
+please	O
+suggest	O
+some	O
+Pizza	B-CUISINE
+corners	O
