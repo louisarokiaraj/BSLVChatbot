@@ -28,7 +28,7 @@ class Fix_choice:
         self.resultDict = {}
         self.BOOLEAN_PRICE = False
         self.BOOLEAN_LOCATION = False
-        self.BOOLEAN_CUSINE = False
+        self.BOOLEAN_CUISINE = False
 
         self.fetchedRestaurant=[]
         self.fetchedAddress = []
@@ -36,7 +36,7 @@ class Fix_choice:
 
         self.PRICE_VALUE = ""
         self.LOCATION_VALUE = ""
-        self.CUSINE_VALUE = ""
+        self.CUISINE_VALUE = ""
 
         self.STARTUP_FILTER["GREETING_WORDS"]=["Hi, How may I help you","Hello","What can I do for you Today",
                                           "How may I help you today"," Hi, Ready to eat"]
@@ -76,9 +76,9 @@ class Fix_choice:
 
         for word, tag in result:
             if 'B-CUISINE' in tag:
-                if self.BOOLEAN_CUSINE == False:
-                    self.BOOLEAN_CUSINE = True
-                    self.CUSINE_VALUE = word.lower()
+                if self.BOOLEAN_CUISINE == False:
+                    self.BOOLEAN_CUISINE = True
+                    self.CUISINE_VALUE = word.lower()
             if 'B-PRICE' in tag:
                 if self.BOOLEAN_PRICE == False:
                     self.BOOLEAN_PRICE = True
@@ -91,7 +91,7 @@ class Fix_choice:
                     self.BOOLEAN_LOCATION = True
                     self.LOCATION_VALUE += " "+word.lower()
 
-        if self.BOOLEAN_LOCATION or self.BOOLEAN_PRICE or self.BOOLEAN_CUSINE:
+        if self.BOOLEAN_LOCATION or self.BOOLEAN_PRICE or self.BOOLEAN_CUISINE:
             return self.fix_choice()
         else:
             return self.fix_choice("invalid_choice")
@@ -101,20 +101,20 @@ class Fix_choice:
         confirmValue2 = self.bslvChatBotObj.speech_recognition()
         if confirmValue2 is not None:
             if "food" in confirmValue2.lower() and "location" in confirmValue2.lower() and "price" in confirmValue2.lower():
-                self.BOOLEAN_CUSINE = False
+                self.BOOLEAN_CUISINE = False
                 self.BOOLEAN_LOCATION = False
                 self.BOOLEAN_PRICE = False
             elif "food" in confirmValue2.lower() and "location" in confirmValue2.lower():
-                self.BOOLEAN_CUSINE = False
+                self.BOOLEAN_CUISINE = False
                 self.BOOLEAN_LOCATION = False
             elif "food" in confirmValue2.lower() and "price" in confirmValue2.lower():
-                self.BOOLEAN_CUSINE = False
+                self.BOOLEAN_CUISINE = False
                 self.BOOLEAN_PRICE = False
             elif "location" in confirmValue2.lower() and "price" in confirmValue2.lower():
                 self.BOOLEAN_LOCATION = False
                 self.BOOLEAN_PRICE = False
             elif "food" in confirmValue2.lower():
-                self.BOOLEAN_CUSINE = False
+                self.BOOLEAN_CUISINE = False
             elif "location" in confirmValue2.lower():
                 self.BOOLEAN_LOCATION = False
             elif "price" in confirmValue2.lower():
@@ -138,16 +138,16 @@ class Fix_choice:
         final_return_value =""
         if invalid_choice == "invalid_choice":
             final_return_value = random.choice(self.STARTUP_FILTER['STANDARD_RESPONSE'])
-        if self.BOOLEAN_PRICE and self.BOOLEAN_LOCATION and self.BOOLEAN_CUSINE:
-            print("Just to confirm once, You preferred "+self.CUSINE_VALUE+" food , "+self.PRICE_VALUE+" for price and "+self.LOCATION_VALUE+" for location., Is this correct ?. [Yes / No]")
+        if self.BOOLEAN_PRICE and self.BOOLEAN_LOCATION and self.BOOLEAN_CUISINE:
+            print("Just to confirm once, You preferred " + self.CUISINE_VALUE + " food , " + self.PRICE_VALUE + " for price and " + self.LOCATION_VALUE + " for location., Is this correct ?. [Yes / No]")
             ret = self.call_speech()
             if ret == True:
                 yelpObj = GetAPIResults()
-                self.resultDict = yelpObj.get_results(self.LOCATION_VALUE.lower(), self.PRICE_VALUE, self.CUSINE_VALUE.lower())
+                self.resultDict = yelpObj.get_results(self.LOCATION_VALUE.lower(), self.PRICE_VALUE, self.CUISINE_VALUE.lower())
                 if self.resultDict is None:
                     self.BOOLEAN_LOCATION = False
                     self.BOOLEAN_PRICE = False
-                    self.BOOLEAN_CUSINE = False
+                    self.BOOLEAN_CUISINE = False
                     print("Sorry, something went wrong. Let me give another try")
                     return self.temp_crf("Internal Error")
                 print("################# Here you Go ################")
@@ -166,15 +166,15 @@ class Fix_choice:
                 return "Done"
             else:
                 return ret
-        elif self.BOOLEAN_CUSINE and self.BOOLEAN_LOCATION:
+        elif self.BOOLEAN_CUISINE and self.BOOLEAN_LOCATION:
             final_return_value += random.choice(self.STARTUP_FILTER['LOCATION_CUISINE_GIVEN'])
         elif self.BOOLEAN_PRICE and self.BOOLEAN_LOCATION:
             final_return_value += random.choice(self.STARTUP_FILTER['PRICE_LOCATION_GIVEN'])
-        elif self.BOOLEAN_CUSINE and self.BOOLEAN_PRICE:
+        elif self.BOOLEAN_CUISINE and self.BOOLEAN_PRICE:
             final_return_value += random.choice(self.STARTUP_FILTER['PRICE_CUISINE_GIVEN'])
         elif self.BOOLEAN_PRICE:
             final_return_value += random.choice(self.STARTUP_FILTER['PRICE_GIVEN'])
-        elif self.BOOLEAN_CUSINE:
+        elif self.BOOLEAN_CUISINE:
             final_return_value += random.choice(self.STARTUP_FILTER['CUISINE_GIVEN'])
         elif self.BOOLEAN_LOCATION:
             final_return_value += random.choice(self.STARTUP_FILTER['LOCATION_GIVEN'])
@@ -187,5 +187,5 @@ if __name__ == '__main__':
         return_value = choice.bslvChatBotObj.speech_recognition()
         if return_value is not None:
             print(choice.temp_crf(return_value))
-        if choice.BOOLEAN_CUSINE and choice.BOOLEAN_LOCATION and choice.BOOLEAN_PRICE:
+        if choice.BOOLEAN_CUISINE and choice.BOOLEAN_LOCATION and choice.BOOLEAN_PRICE:
             break
