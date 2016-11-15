@@ -24,7 +24,7 @@ class Fix_choice:
 
     def __init__(self):
         self.STARTUP_FILTER={}
-
+        self.resultDict = {}
         self.BOOLEAN_PRICE = False
         self.BOOLEAN_LOCATION = False
         self.BOOLEAN_CUSINE = False
@@ -99,19 +99,18 @@ class Fix_choice:
             final_return_value = random.choice(self.STARTUP_FILTER['STANDARD_RESPONSE'])
         if self.BOOLEAN_PRICE and self.BOOLEAN_LOCATION and self.BOOLEAN_CUSINE:
             print("Just to confirm once You preferred "+self.CUSINE_VALUE+" for cuisine , "+self.PRICE_VALUE+" for price and "+self.LOCATION_VALUE+" for location.")
-            #print("cuisine ",self.CUSINE_VALUE)
-            #print("price ",self.PRICE_VALUE)
-            #print("location ",self.LOCATION_VALUE)
             yelpObj = GetAPIResults()
-            self.fetchedRestaurant, self.fetchedURL, self.fetchedAddress = yelpObj.get_results(self.LOCATION_VALUE, self.PRICE_VALUE, self.CUSINE_VALUE)
+            self.resultDict = yelpObj.get_results(self.LOCATION_VALUE.lower(), self.PRICE_VALUE, self.CUSINE_VALUE.lower())
+
             print("################# Here you Go ################")
             for i in range (0,3):
-                print("---------------------------------")
-                print("Name: ",self.fetchedRestaurant[i])
-                print("URL: ",self.fetchedURL[i])
-                print("Address: ",self.fetchedAddress[i])
-                print("---------------------------------")
-            print()
+                if self.fetchedAddress[i] is not None and self.fetchedURL[i] is not None and self.fetchedRestaurant[i] is not None :
+                    print("---------------------------------")
+                    print("Name: ",self.fetchedRestaurant[i])
+                    print("URL: ",self.fetchedURL[i])
+                    print("Address: ",self.fetchedAddress[i])
+                    print("---------------------------------")
+                print()
             return "Done"
         elif self.BOOLEAN_CUSINE and self.BOOLEAN_LOCATION:
             final_return_value += random.choice(self.STARTUP_FILTER['LOCATION_CUISINE_GIVEN'])
