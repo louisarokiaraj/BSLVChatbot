@@ -129,7 +129,6 @@ class Fix_choice:
         confirmValue = self.bslvChatBotObj.speech_recognition()
         if confirmValue is not None:
             if "yes" in confirmValue.lower():
-                print("Inside yes")
                 return True
             elif "no" in confirmValue.lower():
                 return self.handle_negatives()

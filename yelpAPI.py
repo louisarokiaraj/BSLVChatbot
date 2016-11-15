@@ -37,8 +37,6 @@ class GetAPIResults:
 
         for i in range(0, len(json_dict.get('businesses'))):
             self.resultDict[i] = []
-            #self.name.append()
-            #self.url.append(json_dict.get('businesses')[i].get('url'))
             add = ""
             if json_dict.get('businesses')[i].get('location').get('address1') is not None:
                 add += " " + json_dict.get('businesses')[i].get('location').get('address1')
@@ -50,7 +48,6 @@ class GetAPIResults:
                 add += " " + json_dict.get('businesses')[i].get('location').get('city')
             if json_dict.get('businesses')[i].get('location').get('zip_code') is not None:
                 add += " " + json_dict.get('businesses')[i].get('location').get('zip_code')
-            #self.address.append(add)
             self.resultDict[i].append(json_dict.get('businesses')[i].get('name'))
             self.resultDict[i].append(json_dict.get('businesses')[i].get('url'))
             self.resultDict[i].append(add)
