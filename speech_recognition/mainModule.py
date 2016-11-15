@@ -26,17 +26,16 @@ class Speech_Reg:
                 try:
                     # recognize speech using Google Speech Recognition
                     value = self.r.recognize_google(audio)
-
                     # we need some special handling here to correctly print unicode characters to standard output
                     if str is bytes: # this version of Python uses bytes for strings (Python 2)
-                        print(u"You said {}".format(value).encode("utf-8"))
-                        print(str(format(value).encode("utf-8")))
+                        print("You said {}".format(value).encode("utf-8"))
+                        #print(str(format(value).encode("utf-8")))
                         output.write(str(format(value).encode("utf-8")))
                         output.writelines("\n")
                         return (str(format(value).encode("utf-8")))
                     else: # this version of Python uses unicode for strings (Python 3+)
                         print("You said {}".format(value))
-                        print(str(format(value)))
+                        #print(str(format(value)))
                         output.write(str(format(value)))
                         output.writelines("\n")
                         return (str(format(value)))

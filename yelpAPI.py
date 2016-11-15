@@ -26,22 +26,12 @@ class GetAPIResults:
         response = requests.request("GET", url, headers=headers, params=querystring)
 
         data = response.text
-
-
-        '''headers = {
-            'authorization': "bearer c9N0YruaB-ZFAMkkESOQmHUseB6XlEufsfwDQeZtDBrpfYeBrAlzUm-TaewH-OVDl7eOJKcld3lfJXcMc9vqt6302B4tECWEeQst7frkDx4Jc24BSVFoUuAu4ygoWHYx",
-            'cache-control': "no-cache",
-            'postman-token': "71fefa88-0d7e-7268-a658-8176e2e868cb"
-        }
-        self.conn.request("GET",
-                          "/v3/businesses/search?location=" + location + "&price=" + price + "&categories=" + categories + "&sort_by=" + sort_by + "&limit=" + limit + "",
-                          headers=headers)
-        res = self.conn.getresponse()
-        data = res.read()
-        # print(data.decode("utf-8"))'''
         import json
-        dict = json.loads(data)
-        self.parse_json(dict)
+        try:
+            dict = json.loads(data)
+            self.parse_json(dict)
+        except Exception:
+            self.resultDict = {}
 
     def parse_json(self, json_dict):
 
