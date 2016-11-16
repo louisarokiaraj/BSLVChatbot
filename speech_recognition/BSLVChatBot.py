@@ -60,8 +60,8 @@ class Fix_choice:
 
         self.STARTUP_FILTER['PRICE_CUISINE_GIVEN'] = ["Can you tell me the location please","Location please","Preferred Location?",
                                                  "I would like to know what location you are looking far?"]
-        self.STARTUP_FILTER['LOCATION_CUISINE_GIVEN'] = ["What price range you are looking for?","Price please?",
-                                                    "May i know your price range?"]
+        self.STARTUP_FILTER['LOCATION_CUISINE_GIVEN'] = ["What price range you are looking for?","Can you tell me the expected price please?",
+                                                    "May i know your price range?","Any price preferences ?"]
         self.STARTUP_FILTER['STANDARD_RESPONSE'] = ["let's talk about restaurants",
                                                "I'm here to recommend you restaurants","My knowledge is limited to restaurants","I can assist you to choose good restaurants", "Shall we discuss about restaurants ?"]
         self.STARTUP_FILTER['INCORRECT_ANSWERS'] = ["Sorry, I didn't catch that"]
@@ -144,13 +144,13 @@ class Fix_choice:
             if ret == True:
                 yelpObj = GetAPIResults()
                 self.resultDict = yelpObj.get_results(self.LOCATION_VALUE.lower(), self.PRICE_VALUE, self.CUISINE_VALUE.lower())
-                if self.resultDict is None:
+                if self.resultDict is None or len(self.resultDict) == 0:
                     self.BOOLEAN_LOCATION = False
                     self.BOOLEAN_PRICE = False
                     self.BOOLEAN_CUISINE = False
                     print("Sorry, something went wrong. Let me give another try")
                     return self.temp_crf("Internal Error")
-                print("################# Here you Go ################")
+                print("################# Here you Go #################")
                 counter = 0
                 keylist = ["Name: ","URL: ","Address: "]
                 for key,value in self.resultDict.items():

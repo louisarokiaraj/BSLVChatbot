@@ -3,15 +3,22 @@ import http.client
 class GetAPIResults:
     def __init__(self):
         self.name = []
+        self.foodType = {}
         self.url = []
         self.address = []
         self.resultDict = {}
         self.conn = http.client.HTTPSConnection("api.yelp.com")
 
+    def loadFoodType(self):
+        with open('/Users/louis/Documents/CSCI_544/BSLVChatbot/foodMap.txt','r') as fileHandler:
+            for line in fileHandler:
+                line_split = line.split('-')
+                self.foodType[line_split[0].strip().lower()] = line_split[1].strip().lower()
+
     def get_api_data(self, location, price, categories, sort_by, limit):
-
+        self.loadFoodType()
+        categories = self.foodType[categories]
         import requests
-
         url = "https://api.yelp.com/v3/businesses/search"
 
         querystring = {"location": location, "price": str(price), "categories": categories, "sort_by": sort_by,
@@ -51,6 +58,7 @@ class GetAPIResults:
             self.resultDict[i].append(json_dict.get('businesses')[i].get('name'))
             self.resultDict[i].append(json_dict.get('businesses')[i].get('url'))
             self.resultDict[i].append(add)
+            self.resultDict[i].append(json_dict.get('businesses')[i].get('id'))
 
     def get_results(self,location, price, categories):
         api = GetAPIResults()
