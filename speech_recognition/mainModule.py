@@ -26,6 +26,7 @@ class Speech_Reg:
                         output.write(str(format(value).encode("utf-8")))
                         output.writelines("\n")
                         return (str(format(value).encode("utf-8")))
+                    else:
                         print("You said {}".format(value))
                         output.write(str(format(value)))
                         output.writelines("\n")
