@@ -1,22 +1,21 @@
 import os
 import math
 import sys
-from nbCalculation import nbCalculate
 import pickle
 
 def tokenize_test(line):
     splitLine = line.strip().split(" ")
     return splitLine
 
-def clssify_class(file,nbmodel):
-    inputFileHandler = open(file, "r",encoding="UTF-8")
+def classify_class(file, nbmodel):
     hamProb = nbmodel["HamClass"]["probHam"]
     spamProb = nbmodel["SpamClass"]["probSpam"]
     ham_smooth= nbmodel["HamClass"]["smoothScore"]
     spam_smooth= nbmodel["SpamClass"]["smoothScore"]
     hamScore = 0
     spamScore = 0
-    for eachLine in inputFileHandler:
+    splitFile = file.split("\n")
+    for eachLine in splitFile:
         line = eachLine.strip()
         splitTokens = tokenize_test(line)
         for token in splitTokens:
@@ -27,56 +26,27 @@ def clssify_class(file,nbmodel):
             spamScore=spamScore+math.log10(spam_smooth[token.strip()])
         hamScore=hamScore+math.log10(hamProb)
         spamScore = spamScore+math.log10(spamProb)
-    #print(hamScore,spamScore)
     if hamScore>spamScore:
         return "pos"
     else:
         return "neg"
 
-def main():
+def classify(inputDict):
+    analysedSentimentDict = {}
     model={}
-#    path = "E:\USCSUb\NLP\Assign1\dev"
-    args = sys.argv
-    path = args[1]
-    #readFileHandler = open("", "r")
-    with open("nbmodel.txt","rb") as handle:
+    with open("/Users/louis/Documents/CSCI_544/BSLVChatbot/nbmodel.txt","rb") as handle:
         model=pickle.load(handle)
-    #model = eval(readFileHandler.read())
-    hamCount = 0
-    spamCount = 0
-    correct_spam=0
-    correct_ham=0
-    hamfiles=0
-    spamfiles=0
-    writeHandler = open("nboutput.txt", "w")
-    for root, dirs, files in os.walk(path):
-        for name in files:
-            if name.endswith((".txt")):
-                if "pos" in name:
-                     hamfiles+=1
-                if "neg" in name:
-                    spamfiles+=1
-                result = clssify_class(root+'/'+name,model)
-                if result == "pos":
-                    if "pos" in name:
-                        correct_ham+=1
-                    hamCount+=1
-                    '''fullpath=os.path.join(root,name)
-                    towrite = result+" "+ root+'/'+name+"\n"
-                    towrite = towrite.replace("\\", "/")
-                    writeHandler.write(towrite)'''
-                elif result == "neg":
-                    if "neg" in name:
-                        correct_spam+=1
-                    spamCount+=1
+    for key,value in inputDict.items():
+        posCount = 0
+        negCount = 0
+        for item in value:
+            result = classify_class(item, model)
+            if result == "pos":
+                posCount+=1
+            elif result == "neg":
+                negCount+=1
+        posProb = int((posCount/len(value))*100)
+        negProb = int((negCount/len(value))*100)
+        analysedSentimentDict[key] = str(posProb)+ "% Positive and "+str(negProb)+"% Negative"
 
-                #print(result)
-    nbCalculate(correct_spam,correct_ham,spamfiles,hamfiles,spamCount,hamCount)
-    print(hamCount)
-    print(correct_ham)
-    print(spamCount)
-    print(correct_spam)
-
-
-if __name__ == '__main__':
-    main()
+    return analysedSentimentDict

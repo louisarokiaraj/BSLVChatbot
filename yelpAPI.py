@@ -1,9 +1,12 @@
 import http.client
+import nbClassify
 
 class GetAPIResults:
     def __init__(self):
         self.name = []
+        self.reviewList = []
         self.foodType = {}
+        self.parsedReviews={}
         self.url = []
         self.address = []
         self.resultDict = {}
@@ -15,23 +18,31 @@ class GetAPIResults:
                 line_split = line.split('-')
                 self.foodType[line_split[0].strip().lower()] = line_split[1].strip().lower()
 
-    def get_api_data(self, location, price, categories, sort_by, limit):
-        self.loadFoodType()
-        categories = self.foodType[categories]
-        import requests
-        url = "https://api.yelp.com/v3/businesses/search"
 
-        querystring = {"location": location, "price": str(price), "categories": categories, "sort_by": sort_by,
-                       "limit": limit}
+    def makeExternalCall(self,URL,isQueryString=None):
+        import requests
+        url = URL
+
+
 
         headers = {
             'authorization': "bearer c9N0YruaB-ZFAMkkESOQmHUseB6XlEufsfwDQeZtDBrpfYeBrAlzUm-TaewH-OVDl7eOJKcld3lfJXcMc9vqt6302B4tECWEeQst7frkDx4Jc24BSVFoUuAu4ygoWHYx",
             'cache-control': "no-cache",
             'postman-token': "cbcfc3dd-3198-971e-a1e2-4db46019968e"
         }
+        if isQueryString is not None:
+            response = requests.request("GET", url, headers=headers, params=isQueryString)
+        else:
+            response = requests.request("GET", url, headers=headers)
 
-        response = requests.request("GET", url, headers=headers, params=querystring)
+        return response
 
+    def get_api_data(self, location, price, categories, sort_by, limit):
+        self.loadFoodType()
+        categories = self.foodType[categories]
+        querystring = {"location": location, "price": str(price), "categories": categories, "sort_by": sort_by,
+                       "limit": limit}
+        response = self.makeExternalCall("https://api.yelp.com/v3/businesses/search",querystring)
         data = response.text
         import json
         try:
@@ -58,7 +69,26 @@ class GetAPIResults:
             self.resultDict[i].append(json_dict.get('businesses')[i].get('name'))
             self.resultDict[i].append(json_dict.get('businesses')[i].get('url'))
             self.resultDict[i].append(add)
+            self.reviewList.append(json_dict.get('businesses')[i].get('id'))
             self.resultDict[i].append(json_dict.get('businesses')[i].get('id'))
+
+    def extractReviews(self):
+        for id in self.reviewList:
+            response = self.makeExternalCall("https://api.yelp.com/v3/businesses/"+id+"/reviews")
+            data = response.text
+            import json
+            try:
+                dict = json.loads(data)
+                tempList = []
+                for values in dict['reviews']:
+                    tempList.append(values['text'])
+                    self.parsedReviews[id] = tempList
+            except Exception:
+                self.parsedReviews[id] = []
+
+        analyzedDictOutput = nbClassify.classify(self.parsedReviews)
+        return analyzedDictOutput
+
 
     def get_results(self,location, price, categories):
         api = GetAPIResults()
@@ -71,4 +101,4 @@ class GetAPIResults:
         elif(price.lower() == "expensive"):
             price = "4"
         api.get_api_data(location, price, categories, sort_by, limit)
-        return api.resultDict
+        return api.resultDict,api.extractReviews()

@@ -22,7 +22,8 @@ Danish - danish
 Cuban - cuban
 French - french
 German - german
-Greek - halal
+Greek - greek
+Halal - halal
 Hawaiian - hawaiian
 Hungarian - hungarian
 Indian - indpak

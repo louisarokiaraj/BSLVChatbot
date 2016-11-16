@@ -7,10 +7,9 @@ class Speech_Reg:
         self.m = sr.Microphone()
         self.STARTUP_FILTER={}
 
-        self.STARTUP_FILTER["GREETING_WORDS"]=["Hi, How may I help you","Hello","What can I do for you Today",
-                                  "How may I help you today"," Hi, Ready to eat"]
-        print(random.choice(self.STARTUP_FILTER["GREETING_WORDS"]))
-
+        self.STARTUP_FILTER["GREETING_WORDS"]=["Hi, How may I help you ?","What can I do for you Today ?",
+                                  "How may I help you today ?"," Hi, Ready to eat ?"]
+        print("ChatBot: "+random.choice(self.STARTUP_FILTER["GREETING_WORDS"]))
 
     def speech_recognition(self):
 
@@ -22,12 +21,12 @@ class Speech_Reg:
                 try:
                     value = self.r.recognize_google(audio)
                     if str is bytes:
-                        print("You said {}".format(value).encode("utf-8"))
+                        print("You said: {}".format(value).encode("utf-8"))
                         output.write(str(format(value).encode("utf-8")))
                         output.writelines("\n")
                         return (str(format(value).encode("utf-8")))
                     else:
-                        print("You said {}".format(value))
+                        print("You said: {}".format(value))
                         output.write(str(format(value)))
                         output.writelines("\n")
                         return (str(format(value)))
