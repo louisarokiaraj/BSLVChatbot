@@ -23,8 +23,6 @@ class GetAPIResults:
         import requests
         url = URL
 
-
-
         headers = {
             'authorization': "bearer c9N0YruaB-ZFAMkkESOQmHUseB6XlEufsfwDQeZtDBrpfYeBrAlzUm-TaewH-OVDl7eOJKcld3lfJXcMc9vqt6302B4tECWEeQst7frkDx4Jc24BSVFoUuAu4ygoWHYx",
             'cache-control': "no-cache",
@@ -39,7 +37,10 @@ class GetAPIResults:
 
     def get_api_data(self, location, price, categories, sort_by, limit):
         self.loadFoodType()
-        categories = self.foodType[categories]
+        if categories in self.foodType.keys():
+            categories = self.foodType[categories]
+        else:
+            self.resultDict = {}
         querystring = {"location": location, "price": str(price), "categories": categories, "sort_by": sort_by,
                        "limit": limit}
         response = self.makeExternalCall("https://api.yelp.com/v3/businesses/search",querystring)

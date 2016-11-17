@@ -39,8 +39,8 @@ class Fix_choice:
         self.LOCATION_VALUE = ""
         self.CUISINE_VALUE = ""
 
-        self.STARTUP_FILTER["GREETING_WORDS"]=["Hi, How may I help you","Hello","What can I do for you Today",
-                                          "How may I help you today"," Hi, Ready to eat ?"]
+        self.STARTUP_FILTER["GREETING_WORDS"]=["Hi, How may I help you","What can I do for you Today",
+                                          "How may I help you today"," Hi, Ready to eat ?", "Hi, I am happy you are here !. What type of restaurant you are looking for ?"]
 
         self.STARTUP_FILTER['PRICE_GIVEN']=["Great!, May I know what location would you like ?",
                                             "Great!, May I know what type of cuisine would you like ?","Location ?",
@@ -49,14 +49,14 @@ class Fix_choice:
                                        "Cuisine and Location please"]
 
         self.STARTUP_FILTER['LOCATION_GIVEN']=["I would like to know the type of cuisine please","cuisine preferences?",
-                                          "Wow!, good choice now tell me the price (Cheap / Moderate / Expensive) range ",
-                                          "Great place, can you tell me what cuisine and price (Cheap / Moderate / Expensive) you looking for?",
-                                          "Price please (Cheap / Moderate / Expensive) ","Cuisine please","great , May I know your preferred price (Cheap / Moderate / Expensive) range"]
+                                          "Wow!, good choice now tell me the price (Cheap / Moderate / Medium / Expensive) range ",
+                                          "Great place, can you tell me what cuisine and price (Cheap / Moderate / Medium / Expensive) you looking for?",
+                                          "Price please (Cheap / Moderate / Medium / Expensive) ","Cuisine please","great , May I know your preferred price (Cheap / Moderate / Medium / Expensive) range"]
 
-        self.STARTUP_FILTER['CUISINE_GIVEN']=["Tell me the Price (Cheap / Moderate / Expensive) range","tell me the location please",
-                                         "Can you tell me the price (Cheap / Moderate / Expensive) and location","Price please (Cheap / Moderate / Expensive) ","any preferred price (Cheap / Moderate / Expensive)",
-                                         "any preferred location",
-                                         "good choice, I would like to know your preferred location as well"]
+        self.STARTUP_FILTER['CUISINE_GIVEN']=["Tell me the Price (Cheap / Moderate / Medium / Expensive) range","Tell me the location please",
+                                         "Can you tell me the price (Cheap / Moderate / Medium / Expensive) and location","Price please (Cheap / Moderate / Medium / Expensive) ","Any preferred price (Cheap / Moderate / Medium / Expensive)",
+                                         "Any preferred location",
+                                         "Good choice, I would like to know your preferred location as well"]
 
         self.STARTUP_FILTER['PRICE_LOCATION_GIVEN']= ["I just need one more Information, can you tell me the Cuisine type please",
                                                  "Favourite cuisine ?", "Can I have your cuisine preference please ?"]
@@ -64,14 +64,13 @@ class Fix_choice:
         self.STARTUP_FILTER['PRICE_CUISINE_GIVEN'] = ["Can you tell me the location please","Location please","Preferred Location?",
                                                  "I would like to know what location you are looking for?"]
 
-        self.STARTUP_FILTER['LOCATION_CUISINE_GIVEN'] = ["What price (Cheap / Moderate / Expensive) range you are looking for?","Can you tell me the expected price (Cheap / Moderate / Expensive) please?",
-                                                    "May i know your price (Cheap / Moderate / Expensive) range?","Any price preferences (Cheap / Moderate / Expensive) ?"]
+        self.STARTUP_FILTER['LOCATION_CUISINE_GIVEN'] = ["What price (Cheap / Moderate / Medium / Expensive) range you are looking for?","Can you tell me the expected price (Cheap / Moderate / Medium / Expensive) please?",
+                                                    "May i know your price (Cheap / Moderate / Medium / Expensive) range?","Any price preferences (Cheap / Moderate / Medium / Expensive) ?"]
 
         self.STARTUP_FILTER['STANDARD_RESPONSE'] = ["let's talk about restaurants",
                                                "I'm here to recommend you restaurants","My knowledge is limited to restaurants","I can assist you to choose good restaurants", "Shall we discuss about restaurants ?"]
 
         self.STARTUP_FILTER['INCORRECT_ANSWERS'] = ["Sorry, I didn't catch that"]
-
 
     def temp_crf(self, sentence):
         split_list = sentence.split(" ")
@@ -150,7 +149,7 @@ class Fix_choice:
             else:
                 final_return_value += random.choice(self.STARTUP_FILTER['STANDARD_RESPONSE'])
         if self.BOOLEAN_PRICE and self.BOOLEAN_LOCATION and self.BOOLEAN_CUISINE:
-            print("Just to confirm once, You preferred " + self.CUISINE_VALUE + " food , " + self.PRICE_VALUE + " for price and " + self.LOCATION_VALUE + " for location., Is this correct ?. [Yes / No]")
+            print("Just to confirm once, You preferred " + self.CUISINE_VALUE + " for Cuisine , " + self.PRICE_VALUE + " for Price and " + self.LOCATION_VALUE + " for Location., Is this correct ?. [Yes / No]")
             ret = self.call_speech()
             if ret == True:
                 yelpObj = GetAPIResults()
