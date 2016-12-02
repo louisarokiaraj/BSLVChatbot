@@ -20,6 +20,7 @@ class Speech_Reg:
                 with self.m as source: audio = self.r.listen(source)
                 try:
                     value = self.r.recognize_google(audio)
+					return_val = self.r.recognize_sphinx(audio)
                     if str is bytes:
                         print("You said: {}".format(value).encode("utf-8"))
                         output.write(str(format(value).encode("utf-8")))
